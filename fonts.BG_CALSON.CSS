@@ -55,7 +55,7 @@ unicode-range: 3040-30FF, 31F0-31FF;
 *, div, span, object, a, h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, p, blockquote, address, del, dfn, strong, em, img, q, samp, b, i, small, sub, sup, var, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, figcaption, figsource, header, footer, hgroup, menu, nav, section, mark, select, input, iframe, main, form, script, noscript, span, time, summary, canvas, details, pre, div>h2, h2>strong, div>h3, div>h4, .article__title.article__title--single, figcaption.wp-caption-text, .entry-title
 
 {
-    font-family: 'GENJP', 'Roboto.slab', 'GEN' !important;
+    font-family: 'GENJP', 'CALSON', 'GEN' !important;
 
     color: #cccccc !important;
     letter-spacing: 0.05em !important;
