@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'GEN';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/02eb8cad1bdd2a7a2729e1dcaa29470a52f3a446/GenSenMaruGothicTW-Light-23MAR.woff2) format('woff2');
+    unicode-range: U+3000-U+303F, U+4E00-9FFF;
+}
+
+@font-face {
+  font-family: 'Aleo';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/2877ba3d910c15d42cb605513fbd3d72805e66d8/Aleo-Light.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'GENJP';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/e88bb9e481c7c72a3d17500f643b63ad94ff3ac8/GenSenMaruGothicTW-Light-TTF.JP.woff2) format('woff2');
+unicode-range: 3040-30FF, 31F0-31FF;
+}
+
+@font-face {
+  font-family: 'Roboto.slab';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/fc1d2ab9538e663023854dbf2c69c2c969593f0e/RobotoSlab-Light.woff2) format('woff2');
+    unicode-range: U+00-024F;
+}
+
+@font-face {
+  font-family: 'PFSC.EN';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/9df114c762d299de636d8b5c168b60cad7da2710/PingFangSCRegular.EN.woff2) format('woff2');
+    unicode-range: U+00-024F;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/eeea969ac6a9c629882b635643859458048e49d8/OpenSans-Light.woff2) format('woff2');
+    unicode-range: U+00-024F;
+}
+
+@font-face {
+  font-family: 'Font-Awesome-4.7';
+  font-weight: 300;
+  src: url("https://rawcdn.githack.com/auterrykp/Fonts/1b6d3dfc93e85735abfcaa199b0f79149c435c6d/fontawesome-webfont.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'glyphicon';
+  src: url("https://rawcdn.githack.com/auterrykp/Fonts/df2b90c5759e44131b2351537fcd6169fbaae9c9/glyphicons-halflings-regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Material-Design-Iconic';
+  src: url("https://rawcdn.githack.com/auterrykp/Fonts/df2b90c5759e44131b2351537fcd6169fbaae9c9/Material-Design-Iconic-Font.woff2") format("woff2"); }
+
+
+*, div, span, object, a, h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, p, blockquote, address, del, dfn, strong, em, img, q, samp, b, i, small, sub, sup, var, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, figcaption, figsource, header, footer, hgroup, menu, nav, section, mark, select, input, iframe, main, form, script, noscript, span, time, summary, canvas, details, pre, div>h2, h2>strong, div>h3, div>h4, .article__title.article__title--single, figcaption.wp-caption-text, .entry-title
+
+{
+    font-family: 'GENJP', 'Aleo', 'GEN' !important;
+
+    color: #cccccc !important;
+    letter-spacing: 0.05em !important;
+    font-size-adjust: 0.58 !important;
+}
+
+.fa {font-family: 'Font-Awesome-4.7'!important;} 
+.glyphicon {font-family: 'glyphicon'!important;} 
+.zmdi {font-family: 'Material-Design-Iconic'!important;}
