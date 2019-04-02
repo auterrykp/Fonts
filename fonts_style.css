@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'GEN';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/02eb8cad1bdd2a7a2729e1dcaa29470a52f3a446/GenSenMaruGothicTW-Light-23MAR.woff2) format('woff2');
@@ -35,10 +34,15 @@ unicode-range: 3040-30FF, 31F0-31FF;
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/03a7b25814b13ade862f12975385543fc4c370a9/icons.woff2) format('woff2');
 }
 
-*, div, span, object, a, h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, p, blockquote, address, del, dfn, strong, em, img, q, samp, b, i, small, sub, sup, var, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, figcaption, figsource, header, footer, hgroup, menu, nav, section, mark, select, input, iframe, main, form, script, noscript, span, time, summary, canvas, details, pre, div>h2, h2>strong, div>h3, div>h4, .article__title.article__title--single, figcaption.wp-caption-text, .entry-title, svg
+*, div, span, object, a, h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, p, blockquote, address, del, dfn, strong, em, img, q, samp, b, i, small, sub, sup, var, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, figcaption, figsource, header, footer, hgroup, menu, nav, section, mark, select, input, iframe, main, form, script, noscript, span, time, summary, canvas, details, pre, div>h2, h2>strong, div>h3, div>h4, .article__title.article__title--single, figcaption.wp-caption-text, .entry-title
 
 {
-    font-family:  'Font-Awesome-4.7', 'glyphicon', 'Material-Design-Iconic', 'sui', 'GENJP', 'IBMFlex', 'GEN' !important;
+    font-family: 'GENJP', 'IBMFlex', 'GEN' !important;
     letter-spacing: 0.05em !important;
     font-size-adjust: 0.58 !important;
 }
+
+.fa {font-family: 'Font-Awesome-4.7'!important;} 
+.glyphicon {font-family: 'glyphicon'!important;} 
+.zmdi {font-family: 'Material-Design-Iconic'!important;}
+.sui {font-family: 'sui'!important}
