@@ -49,7 +49,7 @@ unicode-range: 3040-30FF, 31F0-31FF;
     font-size-adjust: 0.58 !important;
 }
 
-.fa, .icon {font-family: 'Font-Awesome-4.7'!important;} 
+i, .fa {font-family: 'Font-Awesome-4.7'!important;} 
 .glyphicon {font-family: 'glyphicon'!important;} 
 .zmdi {font-family: 'Material-Design-Iconic'!important;}
 .sui {font-family: 'sui'!important}
