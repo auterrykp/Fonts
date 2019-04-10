@@ -17,11 +17,6 @@ unicode-range: 3040-30FF, 31F0-31FF;
 }
 
 @font-face {
-  font-family: 'Font-Awesome-4.7';
-  font-weight: 300;
-  src: url("https://rawcdn.githack.com/auterrykp/Fonts/1b6d3dfc93e85735abfcaa199b0f79149c435c6d/fontawesome-webfont.woff2") format("woff2"); }
-
-@font-face {
   font-family: 'glyphicon';
   src: url("https://rawcdn.githack.com/auterrykp/Fonts/df2b90c5759e44131b2351537fcd6169fbaae9c9/glyphicons-halflings-regular.woff2") format("woff2"); }
 
@@ -49,8 +44,7 @@ unicode-range: 3040-30FF, 31F0-31FF;
     font-size-adjust: 0.58 !important;
 }
 
-.fa, .icon {font-family: 'Font-Awesome-4.7'!important;} 
-.glyphicon, .icon {font-family: 'glyphicon'!important;} 
-.zmdi, .icon {font-family: 'Material-Design-Iconic'!important;}
-.sui, .icon {font-family: 'sui'!important}
-.material-icons, .icon {  font-family: 'Material Icons'!important;}
+.glyphicon {font-family: 'glyphicon'!important;} 
+.zmdi {font-family: 'Material-Design-Iconic'!important;}
+.sui {font-family: 'sui'!important}
+.material-icons {  font-family: 'Material Icons'!important;}
