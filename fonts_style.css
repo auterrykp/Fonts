@@ -16,27 +16,7 @@
 unicode-range: 3040-30FF, 31F0-31FF;
 }
 
-@font-face {
-  font-family: 'glyphicon';
-  src: url("https://rawcdn.githack.com/auterrykp/Fonts/df2b90c5759e44131b2351537fcd6169fbaae9c9/glyphicons-halflings-regular.woff2") format("woff2"); }
-
-@font-face {
-  font-family: 'Material-Design-Iconic';
-  src: url("https://rawcdn.githack.com/auterrykp/Fonts/df2b90c5759e44131b2351537fcd6169fbaae9c9/Material-Design-Iconic-Font.woff2") format("woff2"); }
-
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
-}
-
-@font-face {
-  font-family: 'SUI';
-    src: url(https://rawcdn.githack.com/auterrykp/Fonts/03a7b25814b13ade862f12975385543fc4c370a9/icons.woff2) format('woff2');
-}
-
-*, div, span, object, a, h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, p, blockquote, address, del, dfn, strong, em, img, q, samp, b, small, sub, sup, var, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, figcaption, figsource, header, footer, hgroup, menu, nav, section, mark, select, input, iframe, main, form, script, noscript, span, time, summary, canvas, details, pre, div>h2, h2>strong, div>h3, div>h4, .article__title.article__title--single, figcaption.wp-caption-text, .entry-title
+*, i, div, span, object, a, h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, p, blockquote, address, del, dfn, strong, em, img, q, samp, b, small, sub, sup, var, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, figcaption, figsource, header, footer, hgroup, menu, nav, section, mark, select, input, iframe, main, form, script, noscript, span, time, summary, canvas, details, pre, div>h2, h2>strong, div>h3, div>h4, .article__title.article__title--single, figcaption.wp-caption-text, .entry-title
 
 {
     font-family: 'GENJP', 'IBMFlex', 'GEN';
