@@ -49,8 +49,8 @@ unicode-range: 3040-30FF, 31F0-31FF;
     font-size-adjust: 0.58 !important;
 }
 
-.fa, .icon, .icon-plane {font-family: 'Font-Awesome-4.7'!important;} 
-.glyphicon, .icon, .icon-plane {font-family: 'glyphicon'!important;} 
-.zmdi, .icon, .icon-plane {font-family: 'Material-Design-Iconic'!important;}
-.sui, .icon, .icon-plane {font-family: 'sui'!important}
-.material-icons, .icon, .icon-plane {  font-family: 'Material Icons'!important;}
+.fa, .icon {font-family: 'Font-Awesome-4.7'!important;} 
+.glyphicon, .icon {font-family: 'glyphicon'!important;} 
+.zmdi, .icon {font-family: 'Material-Design-Iconic'!important;}
+.sui, .icon {font-family: 'sui'!important}
+.material-icons, .icon {  font-family: 'Material Icons'!important;}
