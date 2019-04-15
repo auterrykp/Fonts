@@ -32,3 +32,8 @@ div, span, object, a, h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, p, blockqu
 
 .glyphicon {position:relative;top:1px;display:inline-block;font-family:'Glyphicons_Halflings'!important;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;}
 .fa, .icon {font-family:'FontAwesome'!important;display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+li>a:link, p>a:link, span>a:link {
+text-decoration: none;   
+border-bottom: 1.15px dotted#2169a5!important;
+}
