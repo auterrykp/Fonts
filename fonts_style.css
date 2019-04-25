@@ -1,36 +1,43 @@
 @font-face {
   font-family: 'GEN';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/0579d6ec91a13a93771e1792aec871aa21446519/GenSenMaruGothicTW-Light-07APR.woff2) format('woff2');
+  font-display: fallback;
     unicode-range: U+3000-U+303F, U+4E00-9FFF;
 }
 
 @font-face {
   font-family: 'IBMFlex';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/4e65605cac2b0d1d2b1da4fb3a5c46d76435769c/IBMPlexSerif-Light.woff2) format('woff2');
+  font-display: fallback;
     unicode-range: U+00-024F;
 }
 
 @font-face {
   font-family: 'FZYOUH_504L-EN';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/5056fe2144af61ef6f7e36755645d6a0ab50e98b/FZYOUH_504L-EN.woff2) format('woff2');
+  font-display: fallback;
     unicode-range: U+00-024F;
 }
 
 @font-face {
   font-family: 'FZYOUH_504L-JP';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/5056fe2144af61ef6f7e36755645d6a0ab50e98b/FZYOUH_504L-JP.woff2) format('woff2');
+  font-display: fallback;
     unicode-range: 3040-30FF, 31F0-31FF;
 }
 
 @font-face {
     font-family: 'GENJP';
-    src: url(https://rawcdn.githack.com/auterrykp/Fonts/e88bb9e481c7c72a3d17500f643b63ad94ff3ac8/GenSenMaruGothicTW-Light-TTF.JP.woff2) format('woff2');
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/e88bb9e481c7c72a3d17500f643b63ad94ff3ac8/GenSenMaruGothicTW-Light-TTF.JP.woff2)
+      format('woff2');
+  font-display: fallback;
 unicode-range: 3040-30FF, 31F0-31FF;
 }
 
 @font-face {
     font-family: 'Glyphicons_Halflings';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/ed3c3366cca3551eeaa45304210962aa1b2990db/glyphicons-halflings-regular.woff2) format('woff2');
+  font-display: fallback;
 
 }
 
