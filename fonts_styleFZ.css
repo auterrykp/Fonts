@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'FZYOUH_503L';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/257d45e1181b60dc7bd3ecb8fa805c611e08556b/FZYOUH_503L.04MAY.woff2) format('woff2');
+    unicode-range: U+3000-U+303F, U+4E00-9FFF;
+}
+
+@font-face {
+  font-family: 'IBMFlex';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/4e65605cac2b0d1d2b1da4fb3a5c46d76435769c/IBMPlexSerif-Light.woff2) format('woff2');
+    unicode-range: U+00-024F;
+}
+
+@font-face {
+  font-family: 'FZYOUH_503L-EN';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/34a509c434b420a405f041cf28b44b92fd51634d/FZYOUH_503L--EN.woff2) format('woff2');
+    unicode-range: U+00-024F;
+}
+
+@font-face {
+  font-family: 'FZYOUH_504L-JP';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/5056fe2144af61ef6f7e36755645d6a0ab50e98b/FZYOUH_504L-JP.woff2) format('woff2');
+    unicode-range: 3040-30FF, 31F0-31FF;
+}
+
+@font-face {
+    font-family: 'GENJP';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/e88bb9e481c7c72a3d17500f643b63ad94ff3ac8/GenSenMaruGothicTW-Light-TTF.JP.woff2)
+      format('woff2');
+unicode-range: 3040-30FF, 31F0-31FF;
+}
+
+@font-face {
+    font-family: 'Glyphicons_Halflings';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/ed3c3366cca3551eeaa45304210962aa1b2990db/glyphicons-halflings-regular.woff2) format('woff2');
+}
+
+*, div, object, a, h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, p, blockquote, address, del, dfn, strong, em, img, q, samp, b, small, sub, sup, var, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, figcaption, figsource, header, footer, hgroup, menu, nav, section, mark, select, input, iframe, main, form, script, noscript, span, time, summary, canvas, details, pre, div>h2, h2>strong, div>h3, div>h4, .article__title.article__title--single, figcaption.wp-caption-text, .entry-title, aside, .Caption
+
+{
+    font-family: 'FZYOUH_504L-JP', 'IBMFlex', 'FZYOUH_503L'  !important;
+    letter-spacing: 0.05em !important;
+    font-size-adjust: 0.58 !important;
+}
+
+.glyphicon {position:relative;top:1px;display:inline-block;font-family:'Glyphicons_Halflings'!important;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;}
+.fa, .icon {font-family:'FontAwesome'!important;display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
