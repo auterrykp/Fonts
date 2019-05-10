@@ -43,4 +43,4 @@ div, object, a, h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, p, blockquote, a
 }
 
 .glyphicon {position:relative;top:1px;display:inline-block;font-family:'Glyphicons_Halflings'!important;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;}
-
+.fa, span.icon {font-family:'FontAwesome'!important;display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
