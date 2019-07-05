@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'GEN';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/bcd01bb2f108cc89bdad56bb645d04252be81dbf/GenSenMaruGothicTW-Light-25JUN.woff2) format('woff2');
-    unicoderange: U+3000-303F,U+4E00-9FFF;
+    unicode-range: U+3000-303F, U+4E00-9FFF;
 }
 
 @font-face {
@@ -19,14 +19,14 @@
 @font-face {
   font-family: 'FZYOUH_504L-JP';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/65a047c96d5f3b3058ef063d5f9edcc544db6d2e/FZYOUH_504L-JP.woff2) format('woff2');
-    unicode-range: 3040-30FF, 31F0-31FF;
+    unicode-range: U+3040-30FF, 31F0-31FF;
 }
 
 @font-face {
     font-family: 'GENJP';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/e88bb9e481c7c72a3d17500f643b63ad94ff3ac8/GenSenMaruGothicTW-Light-TTF.JP.woff2)
       format('woff2');
-unicode-range: 3040-30FF, 31F0-31FF;
+unicode-range: U+3040-30FF, 31F0-31FF;
 }
 
 @font-face {
