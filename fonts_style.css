@@ -9,13 +9,13 @@
 @font-face {
   font-family: 'IBMFlex';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/4e65605cac2b0d1d2b1da4fb3a5c46d76435769c/IBMPlexSerif-Light.woff2) format('woff2');
-    unicode-range: U+00-024F;
+    unicode-range: U+00-2B11, U+EBE7-FB02;
 }
 
 @font-face {
   font-family: 'FZYOUH_504L-JP';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/65a047c96d5f3b3058ef063d5f9edcc544db6d2e/FZYOUH_504L-JP.woff2) format('woff2');
-    unicode-range: U+3005-30FF, U+31F0-31FF;
+    unicode-range: U+3005-30FF, U+3105-32A3;
 }
 
 @font-face {
