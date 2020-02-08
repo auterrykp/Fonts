@@ -1,3 +1,4 @@
+
   :root {
     --dark: #111;
     --darken: #252a33;
@@ -44,7 +45,7 @@
     color: var(--light) !important;
     background-color: var(--dark) !important;
     background-image: none;
-    scrollbar-color: var(--accent) rgba(85,85,85,0.125);
+    scrollbar-color: #222;
   }
   body ::placeholder,
   body ._2kE6F {
@@ -96,7 +97,7 @@
     background-color: rgba(85,85,85,0.133);
   }
   body ::-webkit-scrollbar-thumb {
-    background-color: var(--accent);
+    background-color: #444;
   }
   body,
   body button,
@@ -1355,8 +1356,8 @@
   span[class][data-icon = 'status-ptt-blue'] path {
     fill: var(--accent) !important;
   }
-  span[class][data-icon *= '-check'] path {
-    fill: var(--#fff) !important;
+  span[class][data-icon *= '-check'] path, span[class][data-icon *= 'send'] path {
+    fill: var(--light) !important;
   }
   span[class][data-icon = 'status-sticker'] > svg > path, span[class][data-icon = 'status-image'] > svg > path, span[class][data-icon = 'chat'] path, span[class][data-icon = 'menu'] path {
     fill: #ddd !important
@@ -2153,7 +2154,7 @@
   .HNuTV,
   ._3qblR,
   ._1SsXF {
-    background-color: var(--dark) !important;
+    background-color: #222 !important;
   }
   ._3_nIn {
     background-color: rgba(85,85,85,0.063) !important;
