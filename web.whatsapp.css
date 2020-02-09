@@ -1315,7 +1315,7 @@
   span[class][data-icon][data-icon='status-document'] > svg > path,
   span[class][data-icon][data-icon='recalled-in'] > svg > path,
   span[class][data-icon][data-icon='recalled-out'] > svg > path {
-    fill-opacity: 1 !important;
+    fill-opacity: 1 !important; fill: var(--accent) !important
   }
   span[class][data-icon = 'status-v3-unread'] path:last-child {
     fill: var(--accent) !important;
@@ -1359,7 +1359,8 @@
   span[class][data-icon *= '-check'] path, span[class][data-icon *= 'send'] path {
     fill: var(--lighter) !important;
   }
-  span[class][data-icon = 'status-sticker'] > svg > path, span[class][data-icon = 'status-image'] > svg > path, span[class][data-icon = 'chat'] path, span[class][data-icon = 'menu'] path {
+ 
+span[class][data-icon = 'chat'] path, span[class][data-icon = 'menu'] path {
     fill: var(--accent) !important
   }
     span[class][data-icon = 'status-dblcheck'] > svg > path {
