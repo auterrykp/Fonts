@@ -1357,10 +1357,10 @@
     fill: var(--accent) !important;
   }
   span[class][data-icon *= '-check'] path, span[class][data-icon *= 'send'] path {
-    fill: var(--light) !important;
+    fill: var(--lighter) !important;
   }
   span[class][data-icon = 'status-sticker'] > svg > path, span[class][data-icon = 'status-image'] > svg > path, span[class][data-icon = 'chat'] path, span[class][data-icon = 'menu'] path {
-    fill: #ddd !important
+    fill: #ddd !important; fill-opacity: 0.5 !important
   }
     span[class][data-icon = 'status-dblcheck'] > svg > path {
     fill: var(--accent) !important
