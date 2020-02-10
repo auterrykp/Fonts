@@ -2665,11 +2665,7 @@ span[class][data-icon = 'chat'] path, span[class][data-icon = 'menu'] path {
       transition: 0.3s ease !important;
       transition-delay: 1.2s !important;
     }
-    .two > div:nth-child(3):hover {
-      min-width: 400px !important;
-      transition-delay: var(--c-m-hover) !important;
-      flex: 0 0 30% !important;
-    }
+  
     .two ._3kF8H {
       flex: 0 0 25%;
     }
