@@ -1314,7 +1314,8 @@
   span[class][data-icon][data-icon='status-sticker'] > svg > path,
   span[class][data-icon][data-icon='status-document'] > svg > path,
   span[class][data-icon][data-icon='recalled-in'] > svg > path,
-  span[class][data-icon][data-icon='recalled-out'] > svg > path {
+  span[class][data-icon][data-icon='recalled-out'] > svg > path,
+  ._2PpWQ path {
     fill-opacity: 1 !important; fill: var(--accent) !important
   }
   span[class][data-icon = 'status-v3-unread'] path:last-child {
