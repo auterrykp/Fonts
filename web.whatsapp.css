@@ -1315,7 +1315,7 @@
   span[class][data-icon][data-icon='recalled-in'] > svg > path,
   span[class][data-icon][data-icon='recalled-out'] > svg > path,
   ._2PpWQ path,
-  ._3VIru span[class][data-icon][data-icon='status-dblcheck'] > svg > path
+  span[class][data-icon][data-icon='msg-dblcheck'] > svg > path
 {
     fill-opacity: 1 !important; fill: var(--accent) !important
   }
