@@ -1364,7 +1364,7 @@ span[class][data-icon = 'chat'] path, span[class][data-icon = 'menu'] path {
     fill: var(--accent) !important
   }
     span[class][data-icon = 'status-dblcheck'] > svg > path {
-    fill: var(--accent) !important
+    fill: var(-- ) !important
   }
 
   span[class][data-icon *= 'check'] path {
