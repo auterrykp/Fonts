@@ -1,4 +1,3 @@
-
   :root {
     --dark: #111;
     --darken: #252a33;
@@ -2213,7 +2212,7 @@ span[class][data-icon = 'chat'] path, span[class][data-icon = 'menu'] path {
     background: none !important;
   }
   .message-in [data-pre-plain-text] + div *,
-  .message-out [data-pre-plain-text] + div * {
+  {
     color: var(--lighter) !important;
   }
   .message-in._26GKj ._2Nkc4:not(#z),
@@ -2903,3 +2902,5 @@ span[class][data-icon = 'chat'] path, span[class][data-icon = 'menu'] path {
     background-color: var(--red) !important;
     filter: hue-rotate(40deg);
   }
+
+._3FeAD ._3u328 {color: #e9e9e9 !important}
