@@ -2901,3 +2901,8 @@ span[class][data-icon = 'chat'] path, span[class][data-icon = 'menu'] path {
   }
 
 ._3FeAD ._3u328 {color: #e9e9e9 !important}
+
+span[class][data-icon *= 'check'] path
+{
+     fill: var(--accent) !important
+  }
