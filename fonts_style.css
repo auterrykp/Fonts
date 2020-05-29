@@ -33,22 +33,3 @@ div:not(.jw-icon-rewind):not(.jw-icon-playback):not(.jw-icon-volume):not(.jw-ico
 
 .glyphicon {position:relative;top:1px;display:inline-block;font-family:'Glyphicons_Halflings'!important;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;}
 .fa {font-family:'FontAwesome'!important;display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-
-body * {text-shadow: none !important}
-
-body::-webkit-scrollbar {
-  width: 4px;
-  height: 5px;
-  background-color: #111}
-
-
-body::-webkit-scrollbar-thumb {background: #cccccc}
-
-
-*, p, header, .expText.expItem, .fx .entry.u4 .summary
-
- {word-break: break-word !important}
-
-* p, span[style], p[style], *:not(a)
-
-{ word-break: normal !important}
