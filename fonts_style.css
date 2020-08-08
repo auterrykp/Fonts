@@ -19,6 +19,12 @@
 }
 
 @font-face {
+  font-family: 'YuGothic-Light.EN';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/5d1ef18730233938ab6fe92b1dff2fe87a0d7cdc/YuGothic-Light.EN.woff2) format('woff2');
+    unicode-range: U+00-2B11, U+EBE7-FB02;
+}
+
+@font-face {
   font-family: 'FZYOUH_504L-JP';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/65a047c96d5f3b3058ef063d5f9edcc544db6d2e/FZYOUH_504L-JP.woff2) format('woff2');
     unicode-range: U+3005-30FF, U+3105-32A3;
@@ -38,7 +44,7 @@
 div:not(.Icon):not(.Icon--expandOpen):not(.Icon--warning):not(.SideMenu__closeIcon):not(.Icon--navigateNextOutline):not(.Icon--notification):not(.Icon--menu):not(.Icon--yahooJapan):not(.jw-icon):not(.jw-icon-rewind):not(.jw-icon-playback):not(.jw-icon-volume):not(.jw-icon-fullscreen), object, a:not(.tb-viewer-icon):not(.Icon--add):not(.Icon--good):not(.Icon--bad), h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, p, blockquote, address, del, dfn, strong, em, img, q, samp, b, small, sub, sup, var, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, figcaption, figsource, header, footer, hgroup, menu, nav, section, mark, select, input, iframe, main, form, script, noscript, time, summary, canvas, details, pre, div>h2, h2>strong, div>h3, div>h4, .article__title.article__title--single, figcaption.wp-caption-text, .entry-title, .Caption, textarea, button, span.title-city-text, span.trading_item_price, span.price, li.icoOtona>span, .meta-date>span, .meta-category>a, .post-content.entry-content.cf>p>span[style], body span[style], span.active, span.comment-copy, .breadcrumbs *, span.tptn_title, span.xn-person, span.swynOZZ8 , twitter-widget *, .main-site-outer *, #ruby-site-content * .text, span#Verticals, #root span, #bubble-content *, #react-root *
 
 {
-    font-family: 'GenSenMaruGothicTW-Light-JP', 'PingFangSCRegular_EN', 'GEN', 'FontAwesome'  !important;
+    font-family: 'GenSenMaruGothicTW-Light-JP', 'YuGothic-Light.EN', 'GEN', 'FontAwesome'  !important;
     letter-spacing: 0.05em !important;
     font-size-adjust: 0.58 !important;
 }
