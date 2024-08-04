@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name			Font
-// @version			0.2
+// @version			0.1
 // @description		Custom_Font
 // @author			TKA
 // @license			N/A
@@ -38,10 +38,9 @@
 
 :is(html[lang*="ja"],#__,#menu_category_list) *:not(.fa,.fas,.far,.fal,.fad,.fab,[class*="fa-"],[class*="icon"],[class*="Icon"],[class*="icomoon"],[class*="logo"],[class*="cart"],[class*="arrow"],[class*="ico-"],span[role="presentation"],[class*="vjs"],i,svg,path,img,.glyphicon,.ico,.ji,.checkmark,.DPvwYc,#datepicker,#app-body #screen-root *,.google-symbols) {
 
-	font-family:  'Noto Sans JP' !important;
+	font-family:  'IBM Plex Sans JP' !important;
 	letter-spacing: 0.05em !important;
 	font-size-adjust: 0.58 !important;
- 	font-weight: 300 !important
 
 }
 
