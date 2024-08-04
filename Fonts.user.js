@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name			Font
-// @version			0.2
+// @version			0.1
 // @description		Custom_Font
 // @author			TKA
 // @license			N/A
@@ -17,7 +17,7 @@
   const style = document.createElement('style');
   style.textContent = `
 
-// START 
+
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@300&display=swap');
@@ -99,7 +99,7 @@
     unicode-range: U+00-2B11,U+EBE7-FB02;
 }
 
-//END
+
 
   `;
   document.head.appendChild(style);
