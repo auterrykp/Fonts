@@ -1,14 +1,15 @@
 // ==UserScript==
 // @name         Others
-// @version      0.0.5
-// @description  Others
+// @version      0.1
+// @description  Custom_Others
 // @author       TKA
 // @license      N/A
 // @match        *://*/*
+// @exclude      https://*.facebook.com/*
 // @grant        none
-// @run-at      document-start
-// @downloadURL       https://static.staticsave.com/auterrykpcss/others.css
-// @updateURL          https://static.staticsave.com/auterrykpcss/others.css
+// @run-at       document-start
+// @downloadURL  https://github.com/auterrykp/Fonts/raw/master/Others.user.js
+// @updateURL    https://github.com/auterrykp/Fonts/raw/master/Others.user.js
 // ==/UserScript==
 
 (function () {
@@ -16,9 +17,7 @@
   style.textContent = `
 
 
-
 @import url('https://static.staticsave.com/auterrykpcss/others.css');
-
 
   `;
   document.head.appendChild(style);
