@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Others
-// @version      0.21
+// @version      0.1
 // @description  Custom_Others
 // @author       TKA
 // @license      N/A
@@ -18,8 +18,6 @@
 
 
 @import url('https://static.staticsave.com/auterrykpcss/others.css');
-
-
 
   `;
   document.head.appendChild(style);
