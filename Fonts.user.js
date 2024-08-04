@@ -24,7 +24,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+JP:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 
