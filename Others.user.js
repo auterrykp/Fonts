@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Others
-// @version      0.16
+// @version      0.17
 // @description  Custom_Others
 // @author       TKA
 // @license      N/A
