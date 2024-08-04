@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Others
-// @version      0.2
+// @version      0.21
 // @description  Custom_Others
 // @author       TKA
 // @license      N/A
@@ -16,11 +16,10 @@
   const style = document.createElement('style');
   style.textContent = `
 
-//START
 
 @import url('https://static.staticsave.com/auterrykpcss/others.css');
 
-//END
+
 
   `;
   document.head.appendChild(style);
