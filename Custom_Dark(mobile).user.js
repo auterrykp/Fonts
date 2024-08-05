@@ -1,16 +1,17 @@
 // ==UserScript==
 // @name         Custom_Dark(mobile)
-// @version      0.1
+// @version      0.2
 // @description  Custom_Dark(mobile)
 // @author       TKA
 // @license      N/A
-// @match        *://*.hk01.com/*
-// @match        *://*.mingpao.com/*
-// @match        *://*.am730.com.hk/*
-// @match        *://*.menclub.hk/*
-// @match        *://menclub.hk/*
-// @match        *://*.betterme-magazine.com/*
-// @match        *://*.letsgojp.com/*
+// @match        *://*hk01.com/*
+// @match        *://*mingpao.com/*
+// @match        *://*am730.com.hk/*
+// @match        *://*menclub.*/*
+// @match        *://*betterme-magazine.com/*
+// @match        *://*letsgojp.com/*
+// @match        *://*retrip.co.jp/*
+// @match        *://*popbee.com/*
 // @grant        none
 // @run-at       document-start
 // @downloadURL  https://github.com/auterrykp/Fonts/raw/master/Custom_Dark(mobile).user.js
