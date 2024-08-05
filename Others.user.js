@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Others
-// @version      0.1
+// @version      0.2
 // @description  Custom_Others
 // @author       TKA
 // @license      N/A
@@ -18,6 +18,24 @@
 
 
 @import url('https://static.staticsave.com/auterrykpcss/others.css');
+
+.page-article .border-primary {
+
+font-size: 16px !important
+
+}
+
+p.break-words,.incontent p {
+
+font-size: 17px !important
+
+}
+
+.incontent h2 {
+
+font-weight: bold !important
+
+}
 
   `;
   document.head.appendChild(style);
