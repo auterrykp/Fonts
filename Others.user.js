@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Others
-// @version      0.2
+// @version      0.21
 // @description  Custom_Others
 // @author       TKA
 // @license      N/A
 // @match        *://*/*
 // @exclude      https://*.facebook.com/*
+// @exclude      https://*.linkedin.com/*
 // @grant        none
 // @run-at       document-start
 // @downloadURL  https://github.com/auterrykp/Fonts/raw/master/Others.user.js
