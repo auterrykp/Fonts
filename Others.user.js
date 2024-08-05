@@ -21,16 +21,25 @@
 
 .page-article .border-primary {
 
-font-size: 16px !important;
-color: #EEE !important
+  font-size: 16.5px !important;
+  max-width: 95% !important;
+  width: 95% !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  box-sizing: border-box !important;
+  letter-spacing: 0.075em !important;
+  font-size-adjust: 0.58 !important;
+  text-align: justify!important;
+  text-justify: inter-word !important
+  color: #FFF !important
 
 }
 
-p.break-words,.incontent p {
+p.break-words,.incontent p,dfn+div p {
 
-  font-size: 17px !important;
-  max-width: 96% !important;
-  width: 96% !important;
+  font-size: 16.5px !important;
+  max-width: 95% !important;
+  width: 95% !important;
   margin-right: auto !important;
   margin-left: auto !important;
   box-sizing: border-box !important;
@@ -44,7 +53,7 @@ p.break-words,.incontent p {
 .incontent h2 {
 
 font-weight: bold !important;
-color: #EEE !important
+color: #FFF !important
 
 }
 
