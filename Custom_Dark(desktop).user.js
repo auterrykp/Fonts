@@ -524,8 +524,8 @@
 // @exclude *://*.myfitnesspal.com/*
 // @grant        none
 // @run-at       document-start
-// @downloadURL  https://github.com/auterrykp/Fonts/raw/master/Custom_Dark.user.js
-// @updateURL    https://github.com/auterrykp/Fonts/raw/master/Custom_Dark.user.js
+// @downloadURL  https://github.com/auterrykp/Fonts/raw/master/Custom_Dark(desktop).user.js
+// @updateURL    https://github.com/auterrykp/Fonts/raw/master/Custom_Dark(desktop).user.js
 // ==/UserScript==
 
 (function () {
