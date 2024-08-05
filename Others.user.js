@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Others
-// @version      0.2
+// @version      0.21
 // @description  Custom_Others
 // @author       TKA
 // @license      N/A
@@ -33,7 +33,8 @@ font-size: 17px !important
 
 .incontent h2 {
 
-font-weight: bold !important
+font-weight: bold !important;
+font-color: #eee !important
 
 }
 
