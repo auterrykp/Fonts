@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Others
-// @version      0.1
+// @version      0.2
 // @description  Custom_Others
 // @author       TKA
 // @license      N/A
@@ -31,7 +31,7 @@
   font-size-adjust: 0.58 !important;
   text-align: justify!important;
   text-justify: inter-word !important
-  color: #FFF !important
+  color: #e4e6eb !important
 
 }
 
@@ -53,7 +53,7 @@ p.break-words,.incontent p,dfn+div p {
 .incontent h2 {
 
 font-weight: bold !important;
-color: #FFF !important
+color: #e4e6eb !important
 
 }
 
