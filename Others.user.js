@@ -34,7 +34,7 @@ font-size: 17px !important
 .incontent h2 {
 
 font-weight: bold !important;
-font-color: #eee !important
+font-color: white !important
 
 }
 
