@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Custom_Dark
+// @name         Custom_Dark(mobile)
 // @version      0.1
-// @description  Custom_Dark
+// @description  Custom_Dark(mobile)
 // @author       TKA
 // @license      N/A
 // @match        *://*.hk01.com/*
