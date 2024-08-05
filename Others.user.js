@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Others
-// @version      0.3
+// @version      0.1
 // @description  Custom_Others
 // @author       TKA
 // @license      N/A
@@ -21,7 +21,8 @@
 
 .page-article .border-primary {
 
-font-size: 16px !important
+font-size: 16px !important;
+color: #EEE !important
 
 }
 
@@ -34,7 +35,7 @@ font-size: 17px !important
 .incontent h2 {
 
 font-weight: bold !important;
-font-color: white !important
+color: #EEE !important
 
 }
 
