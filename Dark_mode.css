@@ -284,7 +284,6 @@ input:not(.quick-search-input-field,.confirm_deal,.main_nav_search_button,.searc
 
 span.toggle-menu, #rf-js-scroll-top>a, .wa4tvz-0.Kkdae.sc-bdVaJa.czkujZ, p.contentTopDesc, .txt8>p:nth-of-type(1), div.c-read, p.catch_txt, div.article_view_desc, .entry-content.clearfix>p:first-child, div#page-inner-main>p:first-child, .page-left .excerpt h2, .story-body__inner p.story-body__introduction:nth-child(2), #__next div.s1bzhl41-0:not(.gElGvB), #__next .sc-5vyyvj-0.sc-1bzhl41-0.kkZXjY,.page-article .border-primary {
 
-  font-size: 15px !important;
   color: #e4e6eb !important;
   line-height: 1.6 !important;
   text-align: justify!important;
@@ -295,7 +294,6 @@ span.toggle-menu, #rf-js-scroll-top>a, .wa4tvz-0.Kkdae.sc-bdVaJa.czkujZ, p.conte
 
 #__next .sc-5vyyvj-0.sc-1bzhl41-0.kkZXjY p, p.contentTopDesc  {
 
-  font-size: 15px !important;
   color: #e4e6eb !important;
   line-height: 1.6 !important;
   text-align: justify!important;
@@ -324,7 +322,6 @@ img[src*="img/logo_name.svg"],img[src*="2016/05/jolli_20g.png"], img[src*="2016/
 h1.article-title, h1.xs-text-2, div.post-view>h1.header, div.news-detail-title, h1.article-header__heading, h1.article__title--single, h3.header-title, h1.page-title, div.article-detail_title>h1, .article.article-css>h1, .contentTopTitle>h1, article.article.main-article>h1.title, article.article>header>h1, h1.col-xs-6.col-md-6,.full-article h1, h3.hRjeT, .article-link-content h2 strong, h2.search-keyword, .article-body__contents h2, h1.p1, .entry-content .h2, .entry-content h2, .card-article .article-box .article-main .title, .iZDonF, .col-xs-12.news-detail-content-container h2 strong, .col-xs-12.news-detail-content-container h1 strong, h1.txt7, .txt4 h2, h1.font-semibold  {
   color: #e4e6eb !important;
   font-weight: bold !important;
-  font-size: 15px !important;
   line-height: 1.4 !important
 }
 
@@ -334,7 +331,7 @@ div._5rgt p,  div>div.cover-btn-text-2, div>div.cover-btn-text-1, .review-contai
 }
 
 div.gallery-info, div.caption-container__caption , .post_info__author, .post_info__date, p.site-description, p.Date, p.feature-name--ad, p.article-detail_caption, div>h1.header_logo, div.c-row-fit>p, .post_info.xs-m0.sm-text-right, p.video-caption, div.caption, p.wp-caption-text, .is-body, p.s1wfcnrk-0, div.rdfa-breadcrumb>*>p, .rf-article-ref.rf-mini, div#article>p>strong, #section-editor>dl>dd>a, .table-contents.section>ul>li, div.note, ul.recommendArticleList a, span.meta-category>a, .c-more.c-more-nexpage a, div.fast-download-box.fast-top *, p.down-click, div#section-lead.inner p, .article-paragraph figcaption span, div.bbcode-quote-text p, p.is-body, div.di58gc-15.lmUAAp, #headerSearch input:placeholder-shown, span.c-newsCard__desc, .form-control.dropdown_href .css-q7xgeq figure figcaption, #content .entry-summary p, div.di58gc-7.hcrZfR div, #main dd.text, .di58gc-15, .di58gc-9, section.about>p, .left-col-content-section.more-info-section div, li.generic-article__summary--li.content--li, li[data-v-83913f50], .article__outer a[data-v-efc6ac46], .article__inner a[data-v-24b28e93], #main-content .article>.wrapper .head .info a span, #main-content .article>.wrapper .head .info a .topic__title, #contents .post-description, #main .table-contents li, .content.js-content.is-truncated, p.sum, td.subject a, #page ._5ayu {
-  font-size: 15px !important;
+
   line-height: inherit !important;
   text-align: inherit !important
 }
