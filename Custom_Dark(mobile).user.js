@@ -13,8 +13,8 @@
 // @match        *://*.letsgojp.com/*
 // @grant        none
 // @run-at       document-start
-// @downloadURL  https://github.com/auterrykp/Fonts/raw/master/Custom_Dark.user.js
-// @updateURL    https://github.com/auterrykp/Fonts/raw/master/Custom_Dark.user.js
+// @downloadURL  https://github.com/auterrykp/Fonts/raw/master/Custom_Dark(mobile).user.js
+// @updateURL    https://github.com/auterrykp/Fonts/raw/master/Custom_Dark(mobile).user.js
 // ==/UserScript==
 
 (function () {
