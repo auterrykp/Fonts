@@ -147,7 +147,7 @@ article>div.modArticle.tracked_mods, li.js-slider-item {
 }
 
 #content-grid p, .wpb_column.columns span[style], .entry-content.cf p, .contentTxt p, #textcontent p, .sc-bdVaJa p:not(.s1bzhl41-1,.e8xwya-0), #RIL_body p, #page-wrap #content .entry p, #postContent p[style], p.bWtIRA, .entryBody .content p, .krkyim, #article .imedia-article p, #infiniteUl p, section.review-container, #mw-content-text p, #main .article-content-inner p, #posts .vb_postbit font, #content .post-content>div>p, .content div.paragraph, #story_body p, .entry-content.single-page p, .entry-content.single-page ul li, [data-v-7bf9283d] .main-article-web#mobile.article .entry-content p, .page-left #content-main p, [data-v-46934846] .entry-content p, div.article-paragraph, section#article p, div.vb_postbit, .card-article .article-box .article-main .article-info .p, #main-wrap .entry-content p, div.css-hl9dz2-GridComponent p, #mm-0.mm-page.mm-slideout p, .entry.single-entry.iframe-loaded p, .bbc-mj7obe.e1cc2ql70, .twocol .article__body p:not(.picsolo-descr), #grid_content span[style], #grid_content span:not(.g_date), .type-post p, div#post-center-col p, div[class*="_page_"] p, div[class*="_page_"], .editArea p, p.bbc-w2hm1d, div.paragraph__column :is(p,span[style]), #td-outer-wrap .td-post-content p, .or-slider-modal .modal-dialog, .txt4 p {
-  font-size: 18.5px !important;
+
   max-width: 95% !important;
   margin-left: auto !important;
   margin-right: auto !important
