@@ -28,12 +28,16 @@ color: #EEE !important
 
 p.break-words,.incontent p {
 
-font-size: 17px !important;
+  font-size: 17px !important;
   max-width: 96% !important;
   width: 96% !important;
   margin-right: auto !important;
   margin-left: auto !important;
   box-sizing: border-box !important;
+  letter-spacing: 0.075em !important;
+  font-size-adjust: 0.58 !important;
+  text-align: justify!important;
+  text-justify: inter-word !important
 
 }
 
