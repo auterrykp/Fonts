@@ -5,7 +5,7 @@
 // @author       TKA
 // @license      N/A
 // @match			*://*/*
-// @exclude *MarknBookMark.html
+// @exclude C:/Users/auter/My%20Drive/MarknBookMark.html
 // @exclude *://*.toyoko-inn/*
 // @exclude *://*.hotespa.net/*
 // @exclude *://*.cathaypacific.com/*
