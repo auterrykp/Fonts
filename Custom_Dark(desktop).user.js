@@ -454,7 +454,7 @@
 // @exclude *://*.taikwun/*
 // @exclude *://*.airbnb.*/*
 // @exclude *://*.*.tokyo/*
-// @exclude *://*.gov/*
+// @exclude *://*.gov.*/*
 // @exclude *://*mca/*
 // @exclude *://*.immigration.gov.tw/*
 // @exclude *://*.etnet.*/*
