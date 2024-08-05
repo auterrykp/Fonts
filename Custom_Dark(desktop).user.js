@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Custom_Dark(mobile)
+// @name         Custom_Dark(desktop)
 // @version      0.1
-// @description  Custom_Dark(mobile)
+// @description  Custom_Dark(desktop)
 // @author       TKA
 // @license      N/A
 // @match			*://*/*
@@ -287,7 +287,7 @@
 // @exclude *://*.azurewebsites/*
 // @exclude *://*.self-order.app/*
 // @exclude *://*.mcdonalds/*
-// @exclude *://*.github.com/*
+// @exclude *://github.com/*
 // @exclude *://*.nihon-kankou/*
 // @exclude *://*.rurubu/*
 // @exclude *://*.steampowered.com/*
