@@ -5,7 +5,7 @@
 // @author				TKA
 // @license				N/A
 // @match				*://*/*
-// @match          		 https://web.whatsapp.com/
+// @match          		https://*.facebook.com/
 // @exclude			https://*.oasistrek.com/*
 // @grant				none
 // @run-at				document-start
