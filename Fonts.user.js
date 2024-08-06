@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name				Font
-// @version			0.2
+// @version			0.3
 // @description		Custom_Font
 // @author				TKA
 // @license				N/A
@@ -31,7 +31,7 @@
 
 	font-family:  'SFProDisplay-Light','PingFangSC-Light' !important;
 	letter-spacing: 0.05em !important;
-    font-size-adjust: 0.58 !important;
+  	font-size-adjust: 0.58 !important;
 
 }
 
