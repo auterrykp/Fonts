@@ -7,10 +7,11 @@
 // @match        *://*.hk01.com/*
 // @match        *://*.mingpao.com/*
 // @match        *://*.am730.com.hk/*
-// @match        *://*.menclub.*/*
+// @match        *://*.menclub.hk/*
 // @match        *://*.betterme-magazine.com/*
 // @match        *://*.letsgojp.com/*
-// @match        *://*.retrip.co.jp/*
+// @match        *://*.retrip.jp/*
+// @match        *://*.rtrp.jp/*
 // @match        *://*.popbee.com/*
 // @grant        none
 // @run-at       document-start
