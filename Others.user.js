@@ -51,10 +51,11 @@ p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,#postCont
 
 }
 
-.incontent h2 {
+.incontent h2, #bkg_wrapper h1 {
 
 font-weight: bold !important;
-color: #e4e6eb !important
+color: #e4e6eb !important;
+font-size: 20px !important
 
 }
 
