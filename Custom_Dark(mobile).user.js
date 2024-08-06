@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Custom_Dark(mobile)
-// @version      0.21
+// @version      0.3
 // @description  Custom_Dark(mobile)
 // @author       TKA
 // @license      N/A
@@ -13,6 +13,7 @@
 // @match        *://*.retrip.jp/*
 // @match        *://*.rtrp.jp/*
 // @match        *://*.popbee.com/*
+// @match        *://cn.nytimes.com/*
 // @grant        none
 // @run-at       document-start
 // @downloadURL  https://github.com/auterrykp/Fonts/raw/master/Custom_Dark(mobile).user.js
@@ -179,20 +180,6 @@ span.toggle-menu, #rf-js-scroll-top>a, .wa4tvz-0.Kkdae.sc-bdVaJa.czkujZ, p.conte
 
 }
 
-._content_.AdAsia>div>h2, section.page-break>h3, h2#target01, div.htmlview.clearfix>h3, h2.subtitle-tokimeki, div.entry-inner>h2, div.article_row>h2, div.article-main>p>big>strong, .entry.single-entry.clearfix.iframe-loaded>h4, #article-content>p>b, .article.article-css>h1, #news>h2.head-style-underline, div#section-title>h1.inner, a.active_main_cat, .mw-headline, #body-container article h3, .single .post .entry-content section h1, .sc-VigVT.iBjcfj, .entry-content .h2, #__next .sc-bwzfXH.loXcNn.sc-bdVaJa.iHZvIS a, .elEVOE.xqz4j2-0 a {
-
-  border-left: 5px solid #4f7b9c !important;
-  border-bottom: 1px solid #4f7b9c !important;
-  background-color: rgba(17, 17, 17, 0.3) !important;
-  padding-left: 5px !important;
-  padding-bottom: 2.5px !important
-}
-
-#textcontent p+h2:not(last-child), #textcontent div+h2, #textcontent h2:first-child, .story-body__inner h2.story-body__crosshead, div.col-xs-12.col-sm-11.col-md-11.news-detail-content>div>p:not(:first-of-type)>strong, span.t-h2, .body.content:not(.gallery) h2:not(.headline,.subheading-gallery), div.article-detail-content-container>p>strong, h1.msg_title, .sc-CtfFt.dmfWND, [data-v-4927f5a7].left__title, strong[data-v-83913f50], h3.LC20lb, h3.sA5rQ, .elementor-element.elementor-element-3c9c62e h2, #main-content a.article__link, .ArticleTitle>*>h1, .cfxYMc {
-
-  border-left: 3px solid #CC0009 !important;
-  padding-left: 5px !important
-}
 
 img[src*="img/logo_name.svg"],img[src*="2016/05/jolli_20g.png"], img[src*="2016/04/jolli_20.png"], img[src*="asset/images/common/sd_header_logo"],img[src*="logo_0119_1928"],img[src*="common/img/logo_sp"],img[src*="renewal/img/logo"],img[src*="tmd_logo2"],img[src*="aday-gl-logo"],img[src*="zhtw_logo"],img[src*="logo.ee8b53951642"], img[src*="cdn.travel-star.jp/images/logo"], span.IconArea, .s14bo89l-1, .SiteLogoTop, .navbar-logo, h1#MainLogo, span.iconarea, .js-category-nav-image, .timeslot-details, div.header_login>a, div.d_sr2_map_nearby, div.or-location, div.common_form_search, span.header-ic-back, span.header-ic-burgermenu, span.title-city-text, span.css-icon-span, .main-categ>.slice *, i.icon-fx-plane, i.icon-toolbar-markasread-secondary, i.icon-fx-share-to-team-black, i.icon-fx-magazine-layout, .icon-toolbar-refresh-secondary, .icon-fx-more-ios-md-black, i.icon-fx-save-ios-md-black, .icon-fx-star-save-ios-md-black, .icon-fx-link-ios-md-black, .icon-fx-email-ios-md-black, .icon-fx-wordpress-ios-md-black, i.icon-fx-cross-ios-sm-black, .condition_address_54x54, .condition_phone_54x54, .condition_cuisinetype_54x54, .condition_price_54x54, .condition_branches_54x54, .condition_openinghour_54x54, div.image-logo>img, a.swipe-pager-item, a.site-logo.iconset, a.search-icon.iconset, a.profile-icon.not-login.iconset, a.share.iconset, .bookmark.iconset.go-login, i.icon.icon-sm.icon-secondary.icon-fx-search-ios-sm-black, i.icon-fx-check-ios-sm-black, i.icon-fx-rename-ios-sm-black, i.icon-fx-rss-ios-sm-black, i.icon-fx-gear-ios-sm-black, i.icon-fx-add-ios-md-black, i.icon-fx-help-ios-md-black, i.icon-fx-dark-mode-md-black, i.icon-fx-clock-ios-sm-black, i.icon-fx-integrations-ios-sm-black, i._56br, .header-smile-section, .score-promotion-section, .common_filter_tag_close_desktop, .common_filter_ar_down_desktop, .a_home_header_icon_bookmark_desktop, .a_home_header_icon_writereview_desktop, i.img.sp_V7iotoOqSzz.sx_8c1d83, section.score-promotion-section  img.promotion-logo-image, i.icon-fx-magnifier-ios-md-black, i.icon-fx-arrowhead-right-ios-sm-black, i.icon-fx-organize-ios-sm-black, i.icon-fx-feedly-ios-sm-black, i.icon-fx-save-ios-sm-black, i.icon-fx-mute-ios-sm-black, ._1bWuGs_1sq4Pqy099x_yy-, a.bx-next, a.bx-prev, img.article-badge-image, div.menu-inner, .homepage-nav .row-header__container .primary-links .menu-list-item a, .ruby-close-btn, .social-link-info.header-social-inner i.fa, div.gallery-thumblink, #feedlyPersona .icon-secondary, .header .logo .logoimg, .sp_fY9ALbq4HRU_1_5x.sx_0bff06, .s4Iyt, .glyphsSpriteFriend_Follow.u-__7,  .BvyAW ._8-yf5, .b5itu ._8-yf5, .ltpMr ._8-yf5, .wpO6b ._8-yf5, span.glyphsSpriteCircle_add__outline__24__grey_9, .common_icon_dialogbox_desktop, .common_icon_editorspick_desktop, .common_icon_camera_desktop,  .jfk-button-img, .item-emphasized, .language_list_item_icon, .home-section-header i.sh-icon.sh-featured, svg.notification-icon__icon, svg.global-menu-features__menu-icon, .global-menu-features__feature[data-v-5ea30993] svg, .logo__right-icon-link svg, img.hamburger_img, span.XCKyNd, .fx.fx .LeftnavList__heading-button > .icon, button.i1sv4u-0.jpCkEC.y2xmxl-1.hzJYUd.y2xmxl-0.fhusym, i[data-sigil="story-popup-context-init"], span._52jh, i.sp_bQxh2FZYb19.sx_46159d, ._1B9uw3CFC2, ._3J9qSxUgcT, ._1Z2nA0TuQj, span.u-__7:not([aria-label],.mediatypesSpriteCarousel__filled__32,.mediatypesSpriteVideo__filled__32,.glyphsSpritePhoto_list__outline__24__blue_5,.mediatypesSpriteIgtv__filled__32), ._47KiJ path, .LeftnavList path, button.h1vxxrco span.h1ypug77, button.sc-179j1vi-0 span, span.aWqeOb .NSy2Hd, .NSy2Hd.null, button.wpO6b.ZQScA, i.sp_S2qYjBdYph9_1_5x, .reaction__default-icon path, ._59tf._2ftq._7gxv:not(._59tg), ._59tg, .sharetray .ico, .XrOey ._8-yf5, button.gomDvd span, .fa-bars::before, .post-page #root  a.share-btn .svg-icon {
   filter: invert(100%)
