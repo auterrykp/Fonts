@@ -1,17 +1,17 @@
 // ==UserScript==
 // @name				Font
-// @version			1
-// @description		Custom_Font
+// @version				1.1
+// @description				Custom_Font
 // @author				TKA
 // @license				N/A
 // @match				*://*/*
-// @exclude          		https://*.facebook.com/
-// @exclude			https://*.oasistrek.com/*
-// @exclude			https://*.linkedin.com/*
+// @exclude          			https://*.facebook.com/
+// @exclude				https://*.oasistrek.com/*
+// @exclude				https://*.linkedin.com/*
 // @grant				none
 // @run-at				document-start
-// @downloadURL		https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
-// @updateURL		https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
+// @downloadURL				https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
+// @updateURL				https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
 // ==/UserScript==
 
 (function () {
@@ -32,7 +32,7 @@
 
 	font-family:  'SFProDisplay-Light','PingFangSC-Light' !important;
 	letter-spacing: 0.05em !important;
-  	font-size-adjust: 0.58 !important;
+  	font-size-adjust: 0.5 !important;
 
 }
 
@@ -41,7 +41,7 @@
 
 	font-family:  'Murecho' !important;
 	letter-spacing: 0.05em !important;
-	font-size-adjust: 0.58 !important;
+	font-size-adjust: 0.5 !important;
 
 } 
 
@@ -54,7 +54,7 @@
 
 	font-family:  'IBM Plex Serif','Noto Serif HK' !important;
 	letter-spacing: 0.05em !important;
-	font-size-adjust: 0.58 !important
+	font-size-adjust: 0.5 !important
 
 }
 
