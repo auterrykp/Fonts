@@ -1,10 +1,9 @@
 // ==UserScript==
 // @name         Custom_Dark(mobile)
-// @version      0.3
+// @version      1
 // @description  Custom_Dark(mobile)
 // @author       TKA
 // @license      N/A
-// @match        *://*.hk01.com/*
 // @match        *://*.mingpao.com/*
 // @match        *://*.am730.com.hk/*
 // @match        *://*.menclub.hk/*
