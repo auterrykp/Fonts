@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name				Font
-// @version				1.2
+// @name					Font
+// @version					1.21
 // @description				Custom_Font
-// @author				TKA
-// @license				N/A
-// @match				*://*/*
-// @exclude          			https://*.facebook.com/
-// @exclude				https://*.oasistrek.com/*
-// @grant				none
-// @run-at				document-start
-// @downloadURL				https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
+// @author					TKA
+// @license					N/A
+// @match					*://*/*
+
+// @exclude					https://*.oasistrek.com/*
+// @grant					none
+// @run-at					document-start
+// @downloadURL			https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
 // @updateURL				https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
 // ==/UserScript==
 
@@ -30,8 +30,8 @@
 /*---CATHY---*/:is(#spa-root,#pageAWAI,app-root,.cx-skin,#change-flights-page) *:not([class*="icon"],[class*="icomoon"]) {
 
 	font-family:  'SFProDisplay-Light','PingFangSC-Light' !important;
-
-  	font-size-adjust: 0.51 !important;
+ 	letter-spacing: 0.025em;
+  	font-size-adjust: 0.52 !important;
 
 }
 
@@ -39,8 +39,8 @@
  :is(html[lang*="ja"],#__,#menu_category_list) *:not(.fa,.fas,.far,.fal,.fad,.fab,[class*="fa-"],[class*="icon"],[class*="Icon"],[class*="icomoon"],[class*="logo"],[class*="cart"],[class*="arrow"],[class*="ico-"],span[role="presentation"],[class*="vjs"],i,svg,path,img,.glyphicon,.ico,.ji,.checkmark,.DPvwYc,#datepicker,#app-body #screen-root *,.google-symbols) {
 
 	font-family:  'Murecho' !important;
-
-	font-size-adjust: 0.51 !important;
+ 	letter-spacing: 0.025em;
+  	font-size-adjust: 0.52 !important;
 
 } 
 
@@ -52,8 +52,8 @@
 :is(.aAX/*gmail*/,[data-base-title="Google Calendar"],#drive_main_page,#drive_mobile_main_page/*gdrive*/,gf-root/*google_fonts*/,#facebook,ytd-app/*yt*/,.notes-container,#ognwrapper,[class*="VIpgJd"]/*google_notes*/,#onecup/*pushbullet*/,#app ._1Fm4m,#whatsapp-web/*whatsapp*/,#centeredBodyContent/*texteditor*/,#yDmH0d/*google_img*/,.layout--boxed/*Weekendhk*/,#spa-root,#pageAWAI,app-root,.cx-skin,#change-flights-page,.ng-scope/*---CATHY---*/,#root [class*="M_"][style],#root [class*="D_"][style]/*Carousell*/,div.iw_viewport-wrapper/*AA*/,.hfeed.site/*jobsdb*/,.cpj-wrapper/*cpjobs*/,.fHlwaI/*hsbc*/,.css-5305ft/*pocket*/,[data-val="https://new.hongkongairlines.com/hxair/"]/*HKairlines*/,#wrap :is(#jre_multi_header,#contents,#topicPath)/*JRE*/,#page_section/*McDonald*/,#__next/*pocket*/,#feedlyChrome/*feedly*/,.theme-agoda/*agoda*/,body._a3wf/*instagram*/,.ms-font-s,#UniqueMessageBody/*ms-outlook*/,:is(#EditorContainer,#FontName_NewDropdown,[id*="FontPicker"],data-automationid="main-app-container"/*onedrive*/)) *) {
 
 	font-family:  'IBM Plex Serif','Noto Serif HK' !important;
-
-	font-size-adjust: 0.51 !important
+ 	letter-spacing: 0.025em;
+  	font-size-adjust: 0.52 !important;
 
 }
 
