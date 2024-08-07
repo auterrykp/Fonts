@@ -25,13 +25,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Murecho:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap');
 
 
 :where(div,a,aside,header,h1,h2,h3,h4,h5,h6,hr,li,label,smal l,p,button,select,ol,ul,dl,dt,dd,object,blockquote,address,del,dfn,data,datalist,strong,em,embed,q,samp,base,sub,sup,var,video,wbr,font,fieldset,link,map,form,ins,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,figcaption,figsource,track,template,source,sub,strike,style,footer,hgroup,menu,nav,section,meta,meter,mark,input,iframe,main,form,script,noscript,time,summary,optgroup,option,output,canvas,param,picture,progress,rp,rt,app-root,mb-hub,mb-navigation-bar,router-outlet,mb-hub-summary,mb-modal,mb-header,mb-main,mb-footer,ruby,col,colgroup,details,pre,kbd,abbr,b,br,bdi,bdo,textarea,cite,span,ytd-app *):not(.fa,.fas,.far,.fal,.fad,.fab,.docon,[class*="fa-"],[class*="icon"],[class*="Icon"],[class*="icomoon"],[class*="logo"],[class*="cart"],[class*="arrow"],[class*="ico-"],span[role="presentation"],[class*="vjs"],i,svg,path,img,.glyphicon,.ico,.ji,.checkmark,.DPvwYc,#datepicker,#app-body #screen-root *,:is(#EditorContainer,#FontName_New-list,[id*="FontPicker"]) */*onedrive*/,.ms-font-s */*ms-outlook*/,.google-symbols,/*texteditor,Google_fonts*/:where(#centeredBodyContent,gf-root,flt-glass-pane) *),
 /*---CATHY---*/:is(#spa-root,#pageAWAI,app-root,.cx-skin,#change-flights-page) *:not([class*="icon"],[class*="icomoon"]) {
 
-	font-family:  'SFProDisplay-Light','Noto Sans HK' !important;
+	font-family:  'SFProDisplay-Light','PingFangSC-Light' !important;
 	letter-spacing: 0.05em !important;
   	font-size-adjust: 0.58 !important;
 
