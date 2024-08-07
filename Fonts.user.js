@@ -5,8 +5,9 @@
 // @author					TKA
 // @license					N/A
 // @match					*://*/*
-
-// @exclude					https://*.oasistrek.com/*
+// @exclude				https://*.facebook.com/*
+// @exclude				https://*.linkedin.com/*
+// @exclude				https://*.oasistrek.com/*
 // @grant					none
 // @run-at					document-start
 // @downloadURL			https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
