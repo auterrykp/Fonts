@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Others
-// @version      0.3
+// @version      1
 // @description  Custom_Others
 // @author       TKA
 // @license      N/A
@@ -22,7 +22,7 @@
 
 .page-article .border-primary,#postContent .entry-content h2 {
 
-  font-size: 16.5px !important;
+
   max-width: 95% !important;
   width: 95% !important;
   margin-right: auto !important;
@@ -38,7 +38,7 @@
 
 p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,#postContent p[style].post-page .post-body-article .post-body-content p {
 
-  font-size: 16.5px !important;
+
   max-width: 96% !important;
   width: 96% !important;
   margin-right: auto !important;
@@ -55,7 +55,7 @@ p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,#postCont
 
 font-weight: bold !important;
 color: #e4e6eb !important;
-font-size: 20px !important
+
 
 }
 
