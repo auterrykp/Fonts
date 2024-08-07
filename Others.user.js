@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Others
-// @version      1
+// @version      1.1
 // @description  Custom_Others
 // @author       TKA
 // @license      N/A
@@ -28,8 +28,8 @@
   margin-right: auto !important;
   margin-left: auto !important;
   box-sizing: border-box !important;
-  letter-spacing: 0.075em !important;
-  font-size-adjust: 0.58 !important;
+
+
   text-align: justify!important;
   text-justify: inter-word !important
   color: #e4e6eb !important
@@ -44,8 +44,7 @@ p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,#postCont
   margin-right: auto !important;
   margin-left: auto !important;
   box-sizing: border-box !important;
-  letter-spacing: 0.075em !important;
-  font-size-adjust: 0.58 !important;
+
   text-align: justify!important;
   text-justify: inter-word !important
 
