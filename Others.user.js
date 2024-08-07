@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                       Others
-// @version                    1.11
+// @version                    1.12
 // @description             Custom_Others
 // @author                       TKA
 // @license                       N/A
@@ -28,8 +28,6 @@
   margin-right: auto !important;
   margin-left: auto !important;
   box-sizing: border-box !important;
-
-
   text-align: justify!important;
   text-justify: inter-word !important
   color: #e4e6eb !important
