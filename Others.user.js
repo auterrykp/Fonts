@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                       Others
-// @version                    1.13
+// @version                    1.13.1
 // @description             Custom_Others
 // @author                       TKA
 // @license                       N/A
@@ -54,7 +54,7 @@ color: #e4e6eb !important;
 }
 
 #GeneralSituation_header,#GeneralSituation_content p,#forecastPeriod p,#forecastDesc p,#forecastContent p,#forecastPeriod,.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div .header,#flw_date,.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div:last-child,#fnd_general,.header.gs {
-font-size: 18px !important
+font-size: 19px !important
 }
 
 
