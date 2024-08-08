@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                       Others
-// @version                    1.13.1
+// @version                    1.13.2
 // @description             Custom_Others
 // @author                       TKA
 // @license                       N/A
@@ -53,8 +53,17 @@ color: #e4e6eb !important;
 
 }
 
+/*hko*/
 #GeneralSituation_header,#GeneralSituation_content p,#forecastPeriod p,#forecastDesc p,#forecastContent p,#forecastPeriod,.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div .header,#flw_date,.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div:last-child,#fnd_general,.header.gs {
-font-size: 19px !important
+font-size: 1.3em !important
+}
+
+/*oasis*/
+html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
+  max-width: 98% !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  box-sizing: border-box !important;
 }
 
 
