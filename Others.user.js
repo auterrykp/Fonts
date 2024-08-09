@@ -17,7 +17,7 @@
   const style = document.createElement('style');
   style.textContent = `
 
-
+@import url('https://static.staticsave.com/auterrykpcss/others.css');
 
 .page-article .border-primary,#postContent .entry-content h2 {
 
@@ -64,8 +64,6 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
   margin-left: auto !important;
   box-sizing: border-box !important;
 }
-
-@import url('https://static.staticsave.com/auterrykpcss/others.css');
 
 
   `;
