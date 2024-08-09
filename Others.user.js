@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                       Others
-// @version                    1.13.9
+// @version                    1.14
 // @description             Custom_Others
 // @author                       TKA
 // @license                       N/A
@@ -62,7 +62,7 @@ color: #e4e6eb !important;
 
 /*hko*/
 .post .title,#postContent p:not(strong),#GeneralSituation_header,#GeneralSituation_content p,#forecastPeriod p,#forecastDesc p,#forecastContent p,#forecastPeriod,.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div .header,.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div:last-child,#fnd_general,.header.gs {
-font-size: 1.3rem !important
+font-size: 1.2rem !important
 }
 
 /*oasis*/
