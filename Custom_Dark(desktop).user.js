@@ -70,6 +70,7 @@
 // @exclude *://*hellotoby.*/*
 // @exclude *://*ptt.cc/*
 // @exclude *://*google.*/*
+// @exclude *://*fonts.googleapis.*/*
 // @exclude *://*chrome.*/*
 // @exclude *://*fubonbank.*/*
 // @exclude *://*wise.*/*
