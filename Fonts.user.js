@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name					Font
-// @version					1.26
+// @version					1.27
 // @description				Custom_Font
 // @author					TKA
 // @license					N/A
@@ -86,19 +86,19 @@
 @font-face {
 	font-family: 'PingFangSCRegular.EN';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/8e9a7bf1a446333b8de3cbfec422046d4e7b8fbd/PingFangSCRegular.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    unicode-range: U+00-2B11,U+EBE7-FB02;
 }
 
 @font-face {
 	font-family: 'CathaySans_Lt';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/e321a95fb49e932beb9afdb6b7870a75e99323a6/CathaySans_Lt.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    unicode-range: U+00-2B11,U+EBE7-FB02;
 }
 
 @font-face {
 	font-family: 'SFProDisplay-Light';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/679060ead1b1df6351962ef7540183a04922fdae/SFProDisplay-Light.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    unicode-range: U+00-2B11,U+EBE7-FB02;
 }
 
 
