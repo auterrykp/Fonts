@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Custom_Dark(desktop)
-// @version      0.2
+// @version      0.21
 // @description  Custom_Dark(desktop)
 // @author       TKA
 // @license      N/A
@@ -388,6 +388,7 @@
 // @exclude *://*ricacorp.*/*
 // @exclude *://*.org/*
 // @exclude *://*bupa.*/*
+// @exclude *://*mybupaprdb2c.b2clogin.*/*
 // @exclude *://*qhms.*/*
 // @exclude *://*bochk.*/*
 // @exclude *://*centamortgage.*/*
