@@ -3,6 +3,8 @@
 // @match *://*/*
 // @grant none
 // @run-at document-start
+// @downloadURL			https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
+// @updateURL				https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
 // ==/UserScript==
 
 // MIT License
