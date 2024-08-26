@@ -1,10 +1,12 @@
 // ==UserScript==
-// @name DarkReader
+// @name                 DarkReader
+// @version					      0.1
+// @description				DarkReader
 // @match *://*/*
 // @grant none
 // @run-at document-start
-// @downloadURL			https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
-// @updateURL				https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
+// @downloadURL			https://github.com/auterrykp/Fonts/raw/master/Dark.mode.user.js
+// @updateURL				https://github.com/auterrykp/Fonts/raw/master/Dark.mode.user.js
 // ==/UserScript==
 
 // MIT License
