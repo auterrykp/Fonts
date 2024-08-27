@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Custom_Dark(desktop)
-// @version      0.21
+// @version      0.22
 // @description  Custom_Dark(desktop)
 // @author       TKA
 // @license      N/A
@@ -322,7 +322,7 @@
 // @exclude *://*sunferry.*/*
 // @exclude *://*bravobus.*/*
 // @exclude *://*traway.*/*
-// @exclude *://*agoda/*
+// @exclude *://*agoda.com/*
 // @exclude *://*1688.*/*
 // @exclude *://*qq.*/*
 // @exclude *://*antbank/*
