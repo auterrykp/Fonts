@@ -8,6 +8,9 @@
 // @exclude file:///C:/Users/auter/My%20Drive/MarknBookMark.html
 // @exclude *://*toyoko-inn.*/*
 // @exclude *://*hotespa.net/*
+// @exclude *://*bicyclerental.jp/*
+// @exclude *://*shimanami*.jp/*
+// @exclude *://*visitshimanami.com/*
 // @exclude *://*cathaypacific.*/*
 // @exclude *://*express.*/*
 // @exclude *://*force.*/*
@@ -205,6 +208,7 @@
 // @exclude *://*willerexpress.*/*
 // @exclude *://*mapion.co.jp/*
 // @exclude *://*willer.co.jp/*
+// @exclude *://*willer-travel.com/*
 // @exclude *://*japanrailpass/*
 // @exclude *://*cookly.me/*
 // @exclude *://*minamiechigo.co.jp/*
