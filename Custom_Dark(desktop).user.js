@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Custom_Dark(desktop)
-// @version      0.2
+// @version      0.22
 // @description  Custom_Dark(desktop)
 // @author       TKA
 // @license      N/A
@@ -532,8 +532,8 @@
 // @exclude *://*myfitnesspal.*/*
 // @grant        none
 // @run-at       document-start
-// @downloadURL  https://github.*/auterrykp/Fonts/raw/master/Custom_Dark(desktop).user.js
-// @updateURL    https://github.*/auterrykp/Fonts/raw/master/Custom_Dark(desktop).user.js
+// @downloadURL  https://github.com/auterrykp/Fonts/raw/master/Custom_Dark(desktop).user.js
+// @updateURL    https://github.com/auterrykp/Fonts/raw/master/Custom_Dark(desktop).user.js
 // ==/UserScript==
 
 (function () {
