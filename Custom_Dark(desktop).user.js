@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Custom_Dark(desktop)
-// @version      0.22
+// @version      0.2
 // @description  Custom_Dark(desktop)
 // @author       TKA
 // @license      N/A
@@ -366,7 +366,7 @@
 // @exclude *://*eats365pos.*/*
 // @exclude *://*pacificcoffee.*/*
 // @exclude *://*u/*
-// @exclude *://*edu/*
+// @exclude *://*edu.hk/*
 // @exclude *://*ln/*
 // @exclude *://*midland.*/*
 // @exclude *://*aastocks.*/*
