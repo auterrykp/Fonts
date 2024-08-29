@@ -15,8 +15,8 @@
 // @exclude *://*express.*/*
 // @exclude *://*force.*/*
 // @exclude *://*whatsapp.*/*
-// @exclude *://*docusign.*/*
-// @exclude *://*feedly.*/*
+// @exclude *://*docusign.com/*
+// @exclude *://*feedly.com/*
 // @exclude *://*service-now.*/*
 // @exclude *://*sapsf.*/*
 // @exclude *://*wifi-cloud.jp/*
