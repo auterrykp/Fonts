@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Custom_Dark(desktop)
-// @version      0.22
+// @version      0.3
 // @description  Custom_Dark(desktop)
 // @author       TKA
 // @license      N/A
