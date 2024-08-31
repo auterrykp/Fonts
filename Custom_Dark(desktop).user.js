@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         Custom_Dark(desktop)
-// @version      0.3
+// @version      0.4
 // @description  Custom_Dark(desktop)
 // @author       TKA
 // @license      N/A
 // @match			*://*/*
 // @exclude file:///C:/Users/auter/My%20Drive/MarknBookMark.html
 // @exclude *://*toyoko-inn.*/*
+// @exclude *://shimanami-cycle.or.jp/*
+// @exclude *://wakka.site/*
 // @exclude *://*hotespa.net/*
 // @exclude *://*bicyclerental.jp/*
 // @exclude *://*shimanami*.jp/*
