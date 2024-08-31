@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name					Font
-// @version					1.3
+// @version					1.5
 // @description				Custom_Font
 // @author					TKA
 // @license					N/A
