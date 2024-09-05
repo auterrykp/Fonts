@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Custom_Dark(desktop)
-// @version      0.411
+// @version      0.42
 // @description  Custom_Dark(desktop)
 // @author       TKA
 // @license      N/A
@@ -308,7 +308,9 @@
 // @exclude *://*office.*/*
 // @exclude *://*windows.*/*
 // @exclude *://*rapoo-eu/*
-// @exclude *://*microsoft/*
+// @exclude *://*microsoft.*/*
+// @exclude *://*office.*/*
+// @exclude *://*microsoftonline.*/*
 // @exclude *://*powerapps.*/*
 // @exclude *://*outlook.*/*
 // @exclude *://*reddit.*/*
