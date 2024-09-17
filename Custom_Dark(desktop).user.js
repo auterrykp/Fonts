@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Custom_Dark(desktop)
-// @version      0.42
+// @version      0.5
 // @description  Custom_Dark(desktop)
 // @author       TKA
 // @license      N/A
@@ -11,6 +11,7 @@
 // @exclude *://*toyoko-inn.*/*
 // @exclude *://shimanami-cycle.or.jp/*
 // @exclude *://wakka.site/*
+// @exclude *://*.489pro.*/*
 // @exclude *://*hotespa.net/*
 // @exclude *://*bicyclerental.jp/*
 // @exclude *://*shimanami*.jp/*
