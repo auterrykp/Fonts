@@ -101,7 +101,7 @@
 // @exclude *://*bhphotovideo.*/*
 // @exclude *://*amazon.*/*
 // @exclude *://*ebay.*/*
-// @exclude *://*pret/*
+// @exclude *://*pret.*/*
 // @exclude *://*ztore.*/*
 // @exclude *://*yoshinoya.*/*
 // @exclude *://*wellcome.*/*
@@ -118,7 +118,7 @@
 // @exclude *://*timessquare.*/*
 // @exclude *://*cityplaza.*/*
 // @exclude *://*k11.*/*
-// @exclude *://*pns/*
+// @exclude *://*pns.*/*
 // @exclude *://*citywalk.*/*
 // @exclude *://*oceanpark.*/*
 // @exclude *://*elementshk.*/*
@@ -157,7 +157,7 @@
 // @exclude *://*doutor.*/*
 // @exclude *://*tullys.*/*
 // @exclude *://*genkisushi.*/*
-// @exclude *://*pc*org/*
+// @exclude *://*.org/*
 // @exclude *://*fevaworks.*/*
 // @exclude *://*oasistrek.*/*
 // @exclude *://*three.*/*
@@ -165,7 +165,6 @@
 // @exclude *://*chinamobile.*/*
 // @exclude *://*wilsoncomm.*/*
 // @exclude *://*1010.*/*
-// @exclude *://*t.*/*
 // @exclude *://*pccw.*/*
 // @exclude *://*clubsim.*/*
 // @exclude *://*csl.*/*
@@ -308,7 +307,7 @@
 // @exclude *://*office365.*/*
 // @exclude *://*office.*/*
 // @exclude *://*windows.*/*
-// @exclude *://*rapoo-eu/*
+// @exclude *://*rapoo*.*/*
 // @exclude *://*microsoft.*/*
 // @exclude *://*office.*/*
 // @exclude *://*microsoftonline.*/*
@@ -328,7 +327,7 @@
 // @exclude *://*ichiran.*/*
 // @exclude *://*16seats.net/*
 // @exclude *://*moovitapp.*/*
-// @exclude *://*kmb/*
+// @exclude *://*kmb.*/*
 // @exclude *://*citybus.*/*
 // @exclude *://*sunferry.*/*
 // @exclude *://*bravobus.*/*
@@ -343,7 +342,7 @@
 // @exclude *://*alipay/*
 // @exclude *://*paydollar.*/*
 // @exclude *://*aliyundrive/*
-// @exclude *://*weibo/*
+// @exclude *://*weibo.*/*
 // @exclude *://*twitter.*/*
 // @exclude *://*facebook.*/*
 // @exclude *://*icloud.*/*
@@ -353,14 +352,14 @@
 // @exclude *://*dpreview.*/*
 // @exclude *://*timable.*/*
 // @exclude *://**museum/*
-// @exclude *://*icho/*
+// @exclude *://*icho.*/*
 // @exclude *://*discoverhongkong/*
 // @exclude *://*nitori-net/*
 // @exclude *://*nitori.*/*
 // @exclude *://*francfranc.net/*
 // @exclude *://*ikea.*/*
 // @exclude *://*mi.*/*
-// @exclude *://*clp**/*
+// @exclude *://*clp*.*/*
 // @exclude *://*mastercard.*/*
 // @exclude *://*adyen.*/*
 // @exclude *://*mobile01.*/*
@@ -372,9 +371,8 @@
 // @exclude *://*decathlon.*/*
 // @exclude *://*eats365pos.*/*
 // @exclude *://*pacificcoffee.*/*
-// @exclude *://*u/*
 // @exclude *://*edu.hk/*
-// @exclude *://*ln/*
+// @exclude *://*ln.*/*
 // @exclude *://*midland.*/*
 // @exclude *://*aastocks.*/*
 // @exclude *://*sharepoint.*/*
@@ -432,7 +430,7 @@
 // @exclude *://*adobe.*/*
 // @exclude *://*yohohongkong.*/*
 // @exclude *://*cipssps.*/*
-// @exclude *://*airport/*
+// @exclude *://*airport*.*/*
 // @exclude *://*tokyo-haneda.*/*
 // @exclude *://*shoponjc.*/*
 // @exclude *://*jumbo-computer.*/*
@@ -469,7 +467,7 @@
 // @exclude *://*airbnb.*/*
 // @exclude *://**tokyo/*
 // @exclude *://*gov.*/*
-// @exclude *://*mca/*
+// @exclude *://*mca.*/*
 // @exclude *://*immigration.gov.tw/*
 // @exclude *://*etnet.*/*
 // @exclude *://*linkedin.*/*
@@ -477,8 +475,8 @@
 // @exclude *://*funbid.*/*
 // @exclude *://*28hse.*/*
 // @exclude *://*getpocket.*/*
-// @exclude *://*hotel/*
-// @exclude *://*tripadvisor/*
+// @exclude *://*hotel.*/*
+// @exclude *://*tripadvisor.*/*
 // @exclude *://*centanet.*/*
 // @exclude *://*flypeach.*/*
 // @exclude *://*lufthansa.*/*
