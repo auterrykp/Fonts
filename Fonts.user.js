@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name					Font
-// @version					1.3.1
+// @version					1.4
 // @description				Custom_Font
 // @author					TKA
 // @license					N/A
@@ -9,6 +9,7 @@
 // @exclude				https://*.linkedin.com/*
 // @exclude				https://*.oasistrek.com/*
 // @exclude				https://transit.yahoo.co.jp/*
+// @exclude				https://*.icloud.com/*
 // @grant					none
 // @run-at					document-start
 // @downloadURL			https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
