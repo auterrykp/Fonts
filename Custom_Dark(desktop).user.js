@@ -6,6 +6,24 @@
 // @license      N/A
 // @match			*://*/*
 // @exclude file:///C:/Users/auter/My%20Drive/MarknBookMark.html
+
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+// @exclude *://*xxxxxxx.*/*
+
 // @exclude *://*japan-bullettrain.*/*
 // @exclude *://*japanrailpass.*/*
 // @exclude *://*toyoko-inn.*/*
@@ -36,6 +54,7 @@
 // @exclude *://*fromjapan.co.jp/*
 // @exclude *://*jorudan.co.jp/*
 // @exclude *://*navitime.*/*
+// @exclude *://*.sigure.tw/*
 // @exclude *://*bookingx.io/*
 // @exclude *://*booking.*/*
 // @exclude *://*retty.me/*
@@ -246,7 +265,7 @@
 // @exclude *://*titohiking.*tw/*
 // @exclude *://*insightmountain/*
 // @exclude *://*hillmont.tw/*
-// @exclude *://*buyandship/*
+// @exclude *://*buyandship.today/*
 // @exclude *://*baidu.*/*
 // @exclude *://*xunlei.*/*
 // @exclude *://*square-enix/*
@@ -274,6 +293,7 @@
 // @exclude *://*mtr.*/*
 // @exclude *://*missav.*/*
 // @exclude *://*ffjav.*/*
+// @exclude *://*nextdns.io/*
 // @exclude *://*hotpepper.jp/*
 // @exclude *://*fujisan.co.jp/*
 // @exclude *://*flickr.*/*
