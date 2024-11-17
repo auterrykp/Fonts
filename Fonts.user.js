@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name					Font
-// @version					1.52
+// @version					1.6
 // @description				Custom_Font
 // @author					TKA
 // @license					N/A
@@ -41,6 +41,15 @@
 
 }
 
+:is(html:is([lang="en"],[lang*="en-US"],[lang*="en-GB"],[lang*="en-int"],[lang*="fr"],[lang*="de"],[lang*="it"],[data-locale="US"],[data-locale="GB"]),#page-top/*ctjobs*/,[lang="en-HK"].hydrated/*iherb*/) *:not(button,.fa,.fas,.far,.fal,.fad,.fab,.docon,[class*="fa-"],[class*="icon"],[class*="Icon"],[class*="icomoon"],[class*="logo"],[class*="cart"],[class*="arrow"],[class*="ico-"],span[role="presentation"],[class*="vjs"],i,svg,path,img,.glyphicon,.ico,.ji,.checkmark,.DPvwYc,#datepicker,#app-body #screen-root *,.google-symbols,.tb-ifont,span.doJOZc,
+:is(.aAX/*gmail*/,[data-base-title="Google Calendar"],#drive_main_page,#drive_mobile_main_page/*gdrive*/,gf-root/*google_fonts*/,#facebook,ytd-app/*yt*/,.notes-container,#ognwrapper,[class*="VIpgJd"]/*google_notes*/,#onecup/*pushbullet*/,#app ._1Fm4m,#whatsapp-web/*whatsapp*/,#centeredBodyContent/*texteditor*/,#yDmH0d/*google_img*/,.layout--boxed/*Weekendhk*/,#spa-root,#pageAWAI,app-root,.cx-skin,#change-flights-page,.ng-scope/*---CATHY---*/,#root [class*="M_"][style],#root [class*="D_"][style]/*Carousell*/,div.iw_viewport-wrapper/*AA*/,.hfeed.site/*jobsdb*/,.cpj-wrapper/*cpjobs*/,.fHlwaI/*hsbc*/,.css-5305ft/*pocket*/,[data-val="https://new.hongkongairlines.com/hxair/"]/*HKairlines*/,#wrap :is(#jre_multi_header,#contents,#topicPath)/*JRE*/,#page_section/*McDonald*/,#__next/*pocket*/,#feedlyChrome/*feedly*/,.theme-agoda/*agoda*/,body._a3wf/*instagram*/,.ms-font-s,#UniqueMessageBody/*ms-outlook*/,:is(#EditorContainer,#FontName_NewDropdown,[id*="FontPicker"],data-automationid="main-app-container"/*onedrive*/)) *) {
+
+	font-family:  'Iowan－BT','Noto Serif HK' !important;
+ 	letter-spacing: 0.025em;
+  	font-size-adjust: 0.52 !important;
+
+}
+
 }
 
 
@@ -49,7 +58,7 @@
 :is(html:is([lang="en"],[lang*="en-US"],[lang*="en-GB"],[lang*="en-int"],[lang*="fr"],[lang*="de"],[lang*="it"],[data-locale="US"],[data-locale="GB"]),#page-top/*ctjobs*/,[lang="en-HK"].hydrated/*iherb*/) *:not(button,.fa,.fas,.far,.fal,.fad,.fab,.docon,[class*="fa-"],[class*="icon"],[class*="Icon"],[class*="icomoon"],[class*="logo"],[class*="cart"],[class*="arrow"],[class*="ico-"],span[role="presentation"],[class*="vjs"],i,svg,path,img,.glyphicon,.ico,.ji,.checkmark,.DPvwYc,#datepicker,#app-body #screen-root *,.google-symbols,.tb-ifont,span.doJOZc,
 :is(.aAX/*gmail*/,[data-base-title="Google Calendar"],#drive_main_page,#drive_mobile_main_page/*gdrive*/,gf-root/*google_fonts*/,#facebook,ytd-app/*yt*/,.notes-container,#ognwrapper,[class*="VIpgJd"]/*google_notes*/,#onecup/*pushbullet*/,#app ._1Fm4m,#whatsapp-web/*whatsapp*/,#centeredBodyContent/*texteditor*/,#yDmH0d/*google_img*/,.layout--boxed/*Weekendhk*/,#spa-root,#pageAWAI,app-root,.cx-skin,#change-flights-page,.ng-scope/*---CATHY---*/,#root [class*="M_"][style],#root [class*="D_"][style]/*Carousell*/,div.iw_viewport-wrapper/*AA*/,.hfeed.site/*jobsdb*/,.cpj-wrapper/*cpjobs*/,.fHlwaI/*hsbc*/,.css-5305ft/*pocket*/,[data-val="https://new.hongkongairlines.com/hxair/"]/*HKairlines*/,#wrap :is(#jre_multi_header,#contents,#topicPath)/*JRE*/,#page_section/*McDonald*/,#__next/*pocket*/,#feedlyChrome/*feedly*/,.theme-agoda/*agoda*/,body._a3wf/*instagram*/,.ms-font-s,#UniqueMessageBody/*ms-outlook*/,:is(#EditorContainer,#FontName_NewDropdown,[id*="FontPicker"],data-automationid="main-app-container"/*onedrive*/)) *) {
 
-	font-family:  'IBM Plex Serif','Noto Serif HK' !important;
+	font-family:  'Iowan－BT','Noto Serif HK' !important;
  	letter-spacing: 0.025em;
   	font-size-adjust: 0.52 !important;
 
@@ -115,6 +124,11 @@
     unicode-range: U+00-2B11,U+EBE7-FB02;
 }
 
+@font-face {
+	font-family: 'Iowan－BT';
+    src: url(https://rawcdn.githack.com/auterrykp/Fonts/refs/heads/master/iowan.woff) format('woff');
+    unicode-range: U+00-2B11,U+EBE7-FB02;
+}
 
 
   `;
