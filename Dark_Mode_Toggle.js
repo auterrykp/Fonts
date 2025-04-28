@@ -3,7 +3,7 @@
 // @author       Cervantes Wu (http://www.mriwu.us)
 // @description  Ultra enhanced dark mode toggle with per-site settings, performance optimization, and device adaptation
 // @namespace    https://github.com/cwlum/dark-mode-toggle-userscript
-// @version      3.1.0
+// @version      0.1
 // @match        *://*/*
 // @exclude      devtools://*
 // @exclude file:///C:/Users/auter/My%20Drive/MarknBookMark.html
@@ -604,8 +604,8 @@
 // @require      https://unpkg.com/darkreader@4.9.58/darkreader.js
 // @homepageURL  https://github.com/cwlum/dark-mode-toggle-userscript
 // @supportURL   https://github.com/cwlum/dark-mode-toggle-userscript/issues
-// @downloadURL			https://github.com/auterrykp/Fonts/edit/master/Dark_Mode_Toggle.js
-// @updateURL				https://github.com/auterrykp/Fonts/edit/master/Dark_Mode_Toggle.js
+// @downloadURL			https://github.com/auterrykp/Fonts/blob/master/Dark_Mode_Toggle.js
+// @updateURL				https://github.com/auterrykp/Fonts/blob/master/Dark_Mode_Toggle.js
 // @license      MIT
 // @run-at       document-start
 // ==/UserScript==
