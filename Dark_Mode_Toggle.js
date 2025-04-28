@@ -604,6 +604,8 @@
 // @require      https://unpkg.com/darkreader@4.9.58/darkreader.js
 // @homepageURL  https://github.com/cwlum/dark-mode-toggle-userscript
 // @supportURL   https://github.com/cwlum/dark-mode-toggle-userscript/issues
+// @downloadURL			https://github.com/auterrykp/Fonts/edit/master/Dark_Mode_Toggle.js
+// @updateURL				https://github.com/auterrykp/Fonts/edit/master/Dark_Mode_Toggle.js
 // @license      MIT
 // @run-at       document-start
 // ==/UserScript==
