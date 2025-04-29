@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name					Font
-// @version					1.62
+// @version					1.7
 // @description				Custom_Font
 // @author					TKA
 // @license					N/A
 // @match					*://*/*
-// @exclude				https://m.facebook.com/*
-// @exclude				https://*.linkedin.com/*
-// @exclude				https://*.oasistrek.com/*
-// @exclude				https://transit.yahoo.co.jp/*
-// @exclude				https://*.icloud.com/*
+// @exclude					https://m.facebook.com/*
+// @exclude					https://*.linkedin.com/*
+// @exclude					https://*.oasistrek.com/*
+// @exclude					https://transit.yahoo.co.jp/*
+// @exclude					https://*.icloud.com/*
 // @grant					none
 // @run-at					document-start
 // @downloadURL			https://github.com/auterrykp/Fonts/raw/master/Fonts.user.js
@@ -36,7 +36,7 @@
 :where(div,a,aside,header,h1,h2,h3,h4,h5,h6,hr,li,label,smal l,p,ol,ul,dl,dt,dd,object,blockquote,address,del,dfn,data,datalist,strong,em,embed,q,samp,base,sub,sup,var,video,wbr,font,fieldset,link,map,form,ins,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,figcaption,figsource,track,template,source,sub,strike,style,footer,hgroup,menu,nav,section,meta,meter,mark,input,iframe,main,form,script,noscript,time,summary,optgroup,option,output,canvas,param,picture,progress,rp,rt,app-root,mb-hub,mb-navigation-bar,router-outlet,mb-hub-summary,mb-modal,mb-header,mb-main,mb-footer,ruby,col,colgroup,details,pre,kbd,abbr,b,br,bdi,bdo,textarea,cite,span,ytd-app *):not(.p-breadcrumb-chevron,button,.fa,.fas,.far,.fal,.fad,.fab,.docon,[class*="fa-"],[class*="icon"],[class*="Icon"],[class*="icomoon"],[class*="logo"],[class*="cart"],[class*="arrow"],[class*="ico-"],span[role="presentation"],[class*="vjs"],i,svg,path,img,.glyphicon,.ico,.ji,.checkmark,.DPvwYc,#datepicker,#app-body #screen-root *,.tb-ifont,:is(html[lang*="ja"],#EditorContainer,#FontName_New-list,[id*="FontPicker"]) */*onedrive*/,.ms-font-s */*ms-outlook*/,.google-symbols,/*texteditor,Google_fonts*/:where(#centeredBodyContent,gf-root,flt-glass-pane) *),
 /*---CATHY---*/:is(#spa-root,#pageAWAI,app-root,.cx-skin,#change-flights-page) *:not([class*="icon"],[class*="icomoon"]) {
 
-	font-family:  'PingFangSCRegular.EN','PingFangSC-Light','Noto Sans HK' !important;
+	font-family:  'CathaySans_Lt','GenSenMaruGothicTW-Light','Noto Sans HK' !important;
  	letter-spacing: 0.025em;
   	font-size-adjust: 0.52 !important;
 
@@ -68,7 +68,7 @@
 :where(div,a,aside,header,h1,h2,h3,h4,h5,h6,hr,li,label,smal l,p,ol,ul,dl,dt,dd,object,blockquote,address,del,dfn,data,datalist,strong,em,embed,q,samp,base,sub,sup,var,video,wbr,font,fieldset,link,map,form,ins,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,figcaption,figsource,track,template,source,sub,strike,style,footer,hgroup,menu,nav,section,meta,meter,mark,input,iframe,main,form,script,noscript,time,summary,optgroup,option,output,canvas,param,picture,progress,rp,rt,app-root,mb-hub,mb-navigation-bar,router-outlet,mb-hub-summary,mb-modal,mb-header,mb-main,mb-footer,ruby,col,colgroup,details,pre,kbd,abbr,b,br,bdi,bdo,textarea,cite,span,ytd-app *):not(.p-breadcrumb-chevron,button,.fa,.fas,.far,.fal,.fad,.fab,.docon,[class*="fa-"],[class*="icon"],[class*="Icon"],[class*="icomoon"],[class*="logo"],[class*="cart"],[class*="arrow"],[class*="ico-"],span[role="presentation"],[class*="vjs"],i,svg,path,img,.glyphicon,.ico,.ji,.checkmark,.DPvwYc,#datepicker,#app-body #screen-root *,.tb-ifont,.google-symbols,span.doJOZc,:is(html[lang*="ja"],#EditorContainer,#FontName_New-list,[id*="FontPicker"]) */*onedrive*/,.ms-font-s */*ms-outlook*/,.google-symbols,/*texteditor,Google_fonts*/:where(#centeredBodyContent,gf-root,flt-glass-pane) *),
 /*---CATHY---*/:is(#spa-root,#pageAWAI,app-root,.cx-skin,#change-flights-page) *:not([class*="icon"],[class*="icomoon"]) {
 
-	font-family:  'IBM Plex Sans','PingFangSC-Light','Noto Sans HK' !important;
+	font-family:  'CathaySans_Lt','GenSenMaruGothicTW-Light','Noto Sans HK' !important;
  	letter-spacing: 0.025em;
   	font-size-adjust: 0.52 !important;
 
@@ -119,11 +119,6 @@
     unicode-range: U+00-2B11,U+EBE7-FB02;
 }
 
-@font-face {
-	font-family: 'SFProDisplay-Light';
-    src: url(https://rawcdn.githack.com/auterrykp/Fonts/679060ead1b1df6351962ef7540183a04922fdae/SFProDisplay-Light.woff2) format('woff2');
-    unicode-range: U+00-2B11,U+EBE7-FB02;
-}
 
 @font-face {
 	font-family: 'Iowan－BT';
