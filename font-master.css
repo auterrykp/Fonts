@@ -48,7 +48,7 @@ body :is(
   #datepicker,
   #app-body #screen-root *
 ) {
-  font-family: 'Font Awesome 5 Pro','Font Awesome 5 Free', ichiba-icon-font, 'Google Material Icons', 'global-iconfont', icons,'icomoon', sans-serif !important;
+  font-family: 'Font Awesome 5 Pro','Font Awesome 5 Free', 'FontAwesome', ichiba-icon-font, 'Google Material Icons', 'global-iconfont', icons,'icomoon', sans-serif !important;
 }
 
 
