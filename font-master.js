@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Font.master
-// @version      1.11
+// @version      1.12
 // @description  Font.master
 // @author       TKA
 // @match        *://*/*
@@ -44,6 +44,7 @@ html[lang*="ja"] * {
 }
 
 
+/* Preserve native icon fonts for common icon-like elements */
 body :is(
   [class*="fa"],
   [class*="icon"],
@@ -53,22 +54,28 @@ body :is(
   [class*="arrow"],
   [class*="vjs"],
   [class*="glyph"],
+  [class*="material-icons"],
+  .material-icons,
   .docon,
   .ji,
-  .checkmark,
   .tb-ifont,
   .google-symbols,
-  span.doJOZc,
   i,
   svg,
   path,
   img,
-  [role="presentation"],
-  #datepicker,
-  #app-body #screen-root *
-) {
-  font-family: 'Font Awesome 6 Free','Font Awesome 5 Pro','Font Awesome 5 Free', 'FontAwesome', ichiba-icon-font, 'Material Icons','Google Material Icons','bootstrap-icons','Ionicons', 'global-iconfont', icons,'icomoon', 'font-icons','Line Awesome Free','simple-line-icons','entypo','HSBCIcon-Font', inherit, sans-serif !important;
+  [role="presentation"]
+),
+::before,
+::after {
+  font-family:
+    'Font Awesome 6 Free', 'Font Awesome 5 Pro', 'Font Awesome 5 Free', 'FontAwesome',
+    'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'bootstrap-icons',
+    'Material-Design-Iconic-Font', 'Flaticon', 'icons', 'Ionicons', 'global-iconfont',
+    'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo',
+    'HSBCIcon-Font', sans-serif !important;
 }
+
 
 
 /* Font-Faces */
