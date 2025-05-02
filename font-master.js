@@ -260,7 +260,8 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
 .tm-floating-banner__contents,
 .top-promo,
 .zucks-widget-container,
-.incontent .ssm
+.incontent .ssm,
+.placeholder-ad
 
  {
 
