@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Font.master
-// @version      1.1
+// @version      1.11
 // @description  Font.master
 // @author       TKA
 // @match        *://*/*
@@ -67,7 +67,7 @@ body :is(
   #datepicker,
   #app-body #screen-root *
 ) {
-  font-family: 'Font Awesome 6 Free','Font Awesome 5 Pro','Font Awesome 5 Free', 'FontAwesome', ichiba-icon-font, 'Material Icons','Google Material Icons','bootstrap-icons','Ionicons', 'global-iconfont', icons,'icomoon', 'font-icons','Line Awesome Free','simple-line-icons','entypo', sans-serif !important;
+  font-family: 'Font Awesome 6 Free','Font Awesome 5 Pro','Font Awesome 5 Free', 'FontAwesome', ichiba-icon-font, 'Material Icons','Google Material Icons','bootstrap-icons','Ionicons', 'global-iconfont', icons,'icomoon', 'font-icons','Line Awesome Free','simple-line-icons','entypo','HSBCIcon-Font', inherit, sans-serif !important;
 }
 
 
