@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Font.master
-// @version      1.12
+// @version      1.121
 // @description  Font.master
 // @author       TKA
 // @match        *://*/*
@@ -34,6 +34,7 @@
 html * {
   font-family: var(--main-font) !important;
   letter-spacing: 0.025em !important;
+  font-size-adjust: 0.52 !important;
 }
 
 
@@ -41,6 +42,7 @@ html * {
 html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
+  font-size-adjust: 0.52 !important;
 }
 
 
