@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Font.master
-// @version      1.122
+// @version      1.123
 // @description  Font.master
 // @author       TKA
 // @match        *://*/*
@@ -80,11 +80,10 @@ body :is(
   [class="fas"],
   [class="fal"],
   [class="fab"],
-  [class*="icon"],
-  [class*="ico"],
-  [class*="logo"],
-  [class*="cart"],
-  [class*="arrow"],
+  [class="fad"],
+  [class="far"],
+  [class="icon"],
+  [class*="icon-"],
   [class*="vjs"],
   [class*="glyph"],
   [class*="material-icons"],
