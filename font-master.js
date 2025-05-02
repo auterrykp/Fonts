@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Font.master
-// @version      1.123
+// @version      1.125
 // @description  Font.master
 // @author       TKA
 // @match        *://*/*
@@ -12,9 +12,17 @@
 // @updateURL				https://github.com/auterrykp/Fonts/raw/refs/heads/master/font-master.js
 // ==/UserScript==
 
+
+const allowedDomains = ['scmp.com','apple.com'];
+
+  if (allowedDomains.some(domain => window.location.hostname.endsWith(domain))) {
+    document.documentElement.classList.add('--serif-font');
+  }
+
 (function () {
   const style = document.createElement('style');
   style.textContent = `
+
 
 
 /* Google Fonts */
@@ -22,6 +30,7 @@
 
 
 /* Font Variables */
+
 :root {
   --main-font: 'PingFangSCRegular.EN','PingFangSC-Light','Noto Sans HK','GenSenMaruGothicTW-Light';
   --jp-font: 'Murecho';
@@ -31,18 +40,29 @@
 
 
 /* Apply font ONLY to content elements */
+
 html * {
   font-family: var(--main-font) !important;
-  letter-spacing: 0.025em !important;
-  font-size-adjust: 0.52 !important;
+  /* letter-spacing: 0.025em !important; */
+  /* font-size-adjust: 0.52 !important; */
 }
 
 
 /* Japanese content override */
+
 html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
-  letter-spacing: 0.025em !important;
-  font-size-adjust: 0.52 !important;
+  /* letter-spacing: 0.025em !important; */
+  /* font-size-adjust: 0.52 !important; */
+}
+
+
+/* Specific sites serif font content override */
+
+html.--serif-font * {
+  font-family: var(--serif-font) !important;
+  /* letter-spacing: 0.025em !important; */
+  /* font-size-adjust: 0.52 !important; */
 }
 
 
@@ -165,7 +185,7 @@ color: #e4e6eb !important;
 
 /*hko*/
 .post .title,#postContent p:not(strong),#GeneralSituation_header,#GeneralSituation_content p,#forecastPeriod p,#forecastDesc p,#forecastContent p,#forecastPeriod,.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div .header,.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div:last-child,#fnd_general,.header.gs {
-font-size: 1.2rem !important
+font-size: 1.1rem !important
 }
 
 /*oasis*/
