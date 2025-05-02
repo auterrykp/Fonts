@@ -75,16 +75,18 @@ html[lang="el"]) * {
 
 /* Preserve native icon fonts for common icon-like elements */
 body :is(
-  [class*="fa"],
-  [class*="icon"],
-  [class*="ico"],
-  [class*="logo"],
+  [class*="fa-"],
+  [class="fa"],
+  [class="fas"],
+  [class="fal"],
+  [class="fab"],
+  [class="icon"],
+  [class*="icon-"],
   [class*="cart"],
   [class*="arrow"],
   [class*="vjs"],
   [class*="glyph"],
   [class*="material-icons"],
-  .material-icons,
   .docon,
   .ji,
   .tb-ifont,
@@ -93,10 +95,9 @@ body :is(
   svg,
   path,
   img,
-  [role="presentation"]
-),
-::before,
-::after {
+  ::before,
+  ::after
+) {
   font-family:
     'Font Awesome 6 Free', 'Font Awesome 5 Pro', 'Font Awesome 5 Free', 'FontAwesome',
     'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'bootstrap-icons',
