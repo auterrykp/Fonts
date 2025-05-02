@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Font.master
-// @version      1.125
+// @version      1.2
 // @description  Font.master
 // @author       TKA
 // @match        *://*/*
@@ -41,7 +41,7 @@ const allowedDomains = ['scmp.com','mingpao.com'];
 
 /* Apply font ONLY to content elements */
 
-html * {
+html *:not(.--serif-font) {
   font-family: var(--main-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
@@ -50,7 +50,7 @@ html * {
 
 /* Japanese content override */
 
-html[lang*="ja"] * {
+html[lang*="ja"] *:not(.--serif-font) {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
