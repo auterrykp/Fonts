@@ -46,6 +46,33 @@ html[lang*="ja"] * {
 }
 
 
+/* Apply serif font only to European language pages
+:is(html[lang*="en"],
+html[lang*="fr"],
+html[lang*="de"],
+html[lang="es"],
+html[lang="it"],
+html[lang="pt"],
+html[lang="nl"],
+html[lang="sv"],
+html[lang="no"],
+html[lang="da"],
+html[lang="fi"],
+html[lang="pl"],
+html[lang="cs"],
+html[lang="sk"],
+html[lang="sl"],
+html[lang="ro"],
+html[lang="bg"],
+html[lang="hr"],
+html[lang="hu"],
+html[lang="el"]) * {
+  font-family: var(--serif-font) !important;
+}
+
+*/
+
+
 /* Preserve native icon fonts for common icon-like elements */
 body :is(
   [class*="fa"],
