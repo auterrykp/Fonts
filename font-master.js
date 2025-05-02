@@ -8,6 +8,8 @@
 // @exclude      https://m.facebook.com/*
 // @grant        none
 // @run-at       document-start
+// @downloadURL			https://github.com/auterrykp/Fonts/raw/refs/heads/master/font-master.js
+// @updateURL				https://github.com/auterrykp/Fonts/raw/refs/heads/master/font-master.js
 // ==/UserScript==
 
 (function () {
