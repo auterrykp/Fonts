@@ -43,7 +43,7 @@ const allowedDomains = ['scmp.com','apple.com'];
 
 html * {
   font-family: var(--main-font) !important;
-  /* letter-spacing: 0.025em !important; */
+  letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
 }
 
@@ -52,16 +52,35 @@ html * {
 
 html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
-  /* letter-spacing: 0.025em !important; */
+  letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
 }
 
 
 /* Specific sites serif font content override */
 
-html.--serif-font * {
+:is(html.--serif-font,
+html[lang*="fr"],
+html[lang*="de"],
+html[lang="es"],
+html[lang="it"],
+html[lang="pt"],
+html[lang="nl"],
+html[lang="sv"],
+html[lang="no"],
+html[lang="da"],
+html[lang="fi"],
+html[lang="pl"],
+html[lang="cs"],
+html[lang="sk"],
+html[lang="sl"],
+html[lang="ro"],
+html[lang="bg"],
+html[lang="hr"],
+html[lang="hu"],
+html[lang="el"]) * {
   font-family: var(--serif-font) !important;
-  /* letter-spacing: 0.025em !important; */
+  letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
 }
 
@@ -104,6 +123,7 @@ body :is(
   [class="far"],
   [class="icon"],
   [class*="icon-"],
+  [class*="-icon"],
   [class*="vjs"],
   [class*="glyph"],
   [class*="material-icons"],
