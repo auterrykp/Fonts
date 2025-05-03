@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Font.master
-// @version      1.21
+// @version      1.22
 // @description  Font.master
 // @author       TKA
 // @match        *://*/*
