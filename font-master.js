@@ -85,33 +85,6 @@ html[lang="el"]) * {
 }
 
 
-/* Apply serif font only to European language pages
-:is(html[lang*="en"],
-html[lang*="fr"],
-html[lang*="de"],
-html[lang="es"],
-html[lang="it"],
-html[lang="pt"],
-html[lang="nl"],
-html[lang="sv"],
-html[lang="no"],
-html[lang="da"],
-html[lang="fi"],
-html[lang="pl"],
-html[lang="cs"],
-html[lang="sk"],
-html[lang="sl"],
-html[lang="ro"],
-html[lang="bg"],
-html[lang="hr"],
-html[lang="hu"],
-html[lang="el"]) * {
-  font-family: var(--serif-font) !important;
-}
-
-*/
-
-
 /* Preserve native icon fonts for common icon-like elements */
 body :is(
   [class*="fa-"],
@@ -123,6 +96,7 @@ body :is(
   [class="far"],
   [class="icon"],
   [class*="icon-"],
+  [class*="icon_"],
   [class*="-icon"],
   [class*="vjs"],
   [class*="glyph"],
@@ -144,7 +118,7 @@ body :is(
     'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'bootstrap-icons',
     'Material-Design-Iconic-Font', 'Flaticon', 'icons', 'Ionicons', 'global-iconfont',
     'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo',
-    'HSBCIcon-Font', sans-serif !important;
+    'HSBCIcon-Font', 'shared-icons', sans-serif !important;
 }
 
 
