@@ -1,19 +1,19 @@
 // ==UserScript==
-// @name         Font.master
-// @version      1.22
-// @description  Font.master
-// @author       TKA
-// @match        *://*/*
-// @exclude      https://*.oasistrek.com/*
-// @exclude      https://m.facebook.com/*
-// @grant        none
-// @run-at       document-start
-// @downloadURL			https://github.com/auterrykp/Fonts/raw/master/font-master.js
-// @updateURL				https://github.com/auterrykp/Fonts/raw/master/font-master.js
+// @name         			Font.master
+// @version    			1.3
+// @description  		Font.master
+// @author      			 TKA
+// @match        		*://*/*
+// @exclude     		 https://*.oasistrek.com/*
+// @exclude      		https://m.facebook.com/*
+// @grant        			none
+// @run-at      			document-start
+// @downloadURL	https://github.com/auterrykp/Fonts/raw/master/font-master.js
+// @updateURL		https://github.com/auterrykp/Fonts/raw/master/font-master.js
 // ==/UserScript==
 
 
-const allowedDomains = ['jobsdb.com','mingpao.com'];
+const allowedDomains = ['jobsdb.com','mingpao.com','betterme-magazine.com'];
 
   if (allowedDomains.some(domain => window.location.hostname.endsWith(domain))) {
     document.documentElement.classList.add('--serif-font');
