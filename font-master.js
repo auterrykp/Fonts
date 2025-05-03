@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         			Font.master
-// @version    			1.01
+// @version    			1.0.2
 // @description  		Font.master
 // @author      			 TKA
 // @license                       N/A
@@ -108,10 +108,6 @@ html :is(
   .ji,
   .tb-ifont,
   .google-symbols,
-  i,
-  svg,
-  path,
-  img,
   ::before,
   ::after
 ) {
@@ -120,7 +116,7 @@ html :is(
     'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'Google Symbols', 'bootstrap-icons',
     'Material-Design-Iconic-Font', 'Flaticon', 'icons', 'Ionicons', 'global-iconfont',
     'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo',
-    'HSBCIcon-Font', 'shared-icons','element-icons', sans-serif !important;
+    'HSBCIcon-Font', 'shared-icons','element-icons','nytcn-icon', sans-serif !important;
 }
 
 
