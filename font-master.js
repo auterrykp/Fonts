@@ -13,7 +13,7 @@
 // ==/UserScript==
 
 
-const allowedDomains = ['scmp.com','mingpao.com'];
+const allowedDomains = ['jobsdb.com','mingpao.com'];
 
   if (allowedDomains.some(domain => window.location.hostname.endsWith(domain))) {
     document.documentElement.classList.add('--serif-font');
