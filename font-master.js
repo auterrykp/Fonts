@@ -3,6 +3,7 @@
 // @version    			1.3
 // @description  		Font.master
 // @author      			 TKA
+// @license                       N/A
 // @match        		*://*/*
 // @exclude     		 https://*.oasistrek.com/*
 // @exclude      		https://m.facebook.com/*
