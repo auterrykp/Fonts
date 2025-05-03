@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         			Font.master
-// @version    			1.3
+// @version    			1.29
 // @description  		Font.master
 // @author      			 TKA
 // @license                       N/A
