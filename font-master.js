@@ -13,7 +13,7 @@
 // ==/UserScript==
 
 
-const allowedDomains = ['jobsdb.com','mingpao.com','betterme-magazine.com'];
+const allowedDomains = ['jobsdb.com','mingpao.com','betterme-magazine.com','indeed.com','ctgoodjobs.hk','wikipedia.org','bbc.com','nytimes.com'];
 
   if (allowedDomains.some(domain => window.location.hostname.endsWith(domain))) {
     document.documentElement.classList.add('--serif-font');
@@ -119,7 +119,7 @@ html :is(
     'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'Google Symbols', 'bootstrap-icons',
     'Material-Design-Iconic-Font', 'Flaticon', 'icons', 'Ionicons', 'global-iconfont',
     'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo',
-    'HSBCIcon-Font', 'shared-icons', sans-serif !important;
+    'HSBCIcon-Font', 'shared-icons','element-icons', sans-serif !important;
 }
 
 
