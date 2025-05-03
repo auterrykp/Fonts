@@ -41,7 +41,7 @@ const allowedDomains = ['jobsdb.com','mingpao.com','betterme-magazine.com'];
 
 /* Apply font ONLY to content elements */
 
-html *:not(.--serif-font) {
+html * {
   font-family: var(--main-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
@@ -50,7 +50,7 @@ html *:not(.--serif-font) {
 
 /* Japanese content override */
 
-html[lang*="ja"] *:not(.--serif-font) {
+html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
@@ -86,7 +86,7 @@ html[lang="el"]) * {
 
 
 /* Preserve native icon fonts for common icon-like elements */
-body :is(
+html :is(
   [class*="fa-"],
   [class="fa"],
   [class="fas"],
@@ -98,6 +98,7 @@ body :is(
   [class*="icon-"],
   [class*="icon_"],
   [class*="-icon"],
+  [class*="_icon"],
   [class*="vjs"],
   [class*="glyph"],
   [class*="material-icons"],
@@ -114,8 +115,8 @@ body :is(
   ::after
 ) {
   font-family:
-    'Font Awesome 6 Free', 'Font Awesome 5 Pro', 'Font Awesome 5 Free', 'FontAwesome',
-    'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'bootstrap-icons',
+    'Font Awesome 6 Free', 'Font Awesome 6 Brands', 'Font Awesome 5 Pro', 'Font Awesome 5 Free', 'FontAwesome',
+    'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'Google Symbols', 'bootstrap-icons',
     'Material-Design-Iconic-Font', 'Flaticon', 'icons', 'Ionicons', 'global-iconfont',
     'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo',
     'HSBCIcon-Font', 'shared-icons', sans-serif !important;
@@ -274,7 +275,9 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
 .top-promo,
 .zucks-widget-container,
 .incontent .ssm,
-.placeholder-ad
+.placeholder-ad,
+.mt-4,
+.ANDBEYOND-inread
 
  {
 
