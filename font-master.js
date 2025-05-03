@@ -1,20 +1,25 @@
 // ==UserScript==
-// @name         			Font.master
+// @name         		Font.master
 // @version    			1.0.2
 // @description  		Font.master
-// @author      			 TKA
-// @license                       N/A
+// @author      		TKA
+// @license                     N/A
 // @match        		*://*/*
-// @exclude     		 https://*.oasistrek.com/*
+// @exclude     		https://*.oasistrek.com/*
 // @exclude      		https://m.facebook.com/*
-// @grant        			none
-// @run-at      			document-start
-// @downloadURL	https://github.com/auterrykp/Fonts/raw/master/font-master.js
-// @updateURL		https://github.com/auterrykp/Fonts/raw/master/font-master.js
+// @exclude      		https://github.com/*
+// @grant        		none
+// @run-at      		document-start
+// @downloadURL			https://github.com/auterrykp/Fonts/raw/master/font-master.js
+// @updateURL			https://github.com/auterrykp/Fonts/raw/master/font-master.js
 // ==/UserScript==
 
 
-const allowedDomains = ['jobsdb.com','mingpao.com','betterme-magazine.com','indeed.com','ctgoodjobs.hk','wikipedia.org','bbc.com','nytimes.com'];
+const allowedDomains = [
+  'jobsdb.com', 'mingpao.com', 'betterme-magazine.com',
+  'indeed.com', 'ctgoodjobs.hk', 'wikipedia.org',
+  'bbc.com', 'nytimes.com'
+];
 
   if (allowedDomains.some(domain => window.location.hostname.endsWith(domain))) {
     document.documentElement.classList.add('--serif-font');
@@ -116,7 +121,7 @@ html :is(
     'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'Google Symbols', 'bootstrap-icons',
     'Material-Design-Iconic-Font', 'Flaticon', 'icons', 'Ionicons', 'global-iconfont',
     'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo',
-    'HSBCIcon-Font', 'shared-icons','element-icons','nytcn-icon', sans-serif !important;
+    'HSBCIcon-Font', 'shared-icons','element-icons','nytcn-icon','octicons', sans-serif !important;
 }
 
 
