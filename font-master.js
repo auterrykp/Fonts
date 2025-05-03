@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Font.master
-// @version      1.2
+// @version      1.21
 // @description  Font.master
 // @author       TKA
 // @match        *://*/*
@@ -8,8 +8,8 @@
 // @exclude      https://m.facebook.com/*
 // @grant        none
 // @run-at       document-start
-// @downloadURL			https://github.com/auterrykp/Fonts/raw/refs/heads/master/font-master.js
-// @updateURL				https://github.com/auterrykp/Fonts/raw/refs/heads/master/font-master.js
+// @downloadURL			https://github.com/auterrykp/Fonts/raw/master/font-master.js
+// @updateURL				https://github.com/auterrykp/Fonts/raw/master/font-master.js
 // ==/UserScript==
 
 
