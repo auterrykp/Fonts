@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         			Font.master
-// @version    			1.0
+// @version    			1.01
 // @description  		Font.master
 // @author      			 TKA
 // @license                       N/A
@@ -278,7 +278,9 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
 .incontent .ssm,
 .placeholder-ad,
 .mt-4,
-.ANDBEYOND-inread
+.ANDBEYOND-inread,
+.teads-inread,
+.infogram-embed
 
  {
 
