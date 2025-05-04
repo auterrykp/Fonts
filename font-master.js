@@ -10,8 +10,8 @@
 // @exclude      		https://github.com/*
 // @grant        		none
 // @run-at      		document-start
-// @downloadURL			https://github.com/auterrykp/Fonts/raw/master/font-master.js
-// @updateURL			https://github.com/auterrykp/Fonts/raw/master/font-master.js
+// @downloadURL			https://raw.githubusercontent.com/auterrykp/Fonts/master/font-master.js
+// @updateURL			https://raw.githubusercontent.com/auterrykp/Fonts/master/font-master.js
 // ==/UserScript==
 
 
