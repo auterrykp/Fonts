@@ -16,11 +16,10 @@
 
 
 const allowedDomains = [
-'jobsdb.com', 'mingpao.com','am730.com.hk',
-'shoppingdesign.com.tw',
-'betterme-magazine.com', 'adaymag.com', 'nippon.com',
-'indeed.com', 'ctgoodjobs.hk', 'wikipedia.org',
-'bbc.com', 'nytimes.com'
+'mingpao.com','am730.com.hk', 'nippon.com',
+'shoppingdesign.com.tw', 'betterme-magazine.com', 'adaymag.com', 
+'jobsdb.com', 'indeed.com', 'ctgoodjobs.hk',
+'bbc.com', 'nytimes.com', 'wikipedia.org',
 ];
 
   if (allowedDomains.some(domain => window.location.hostname.endsWith(domain))) {
