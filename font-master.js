@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         		Font.master
-// @version    			1.0.2
+// @version    			1.0.3
 // @description  		Font.master
 // @author      		TKA
 // @license                     N/A
@@ -16,9 +16,11 @@
 
 
 const allowedDomains = [
-  'jobsdb.com', 'mingpao.com', 'betterme-magazine.com',
-  'indeed.com', 'ctgoodjobs.hk', 'wikipedia.org',
-  'bbc.com', 'nytimes.com'
+'jobsdb.com', 'mingpao.com','am730.com.hk',
+'shoppingdesign.com.tw',
+'betterme-magazine.com', 'adaymag.com', 'nippon.com',
+'indeed.com', 'ctgoodjobs.hk', 'wikipedia.org',
+'bbc.com', 'nytimes.com'
 ];
 
   if (allowedDomains.some(domain => window.location.hostname.endsWith(domain))) {
