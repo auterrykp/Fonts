@@ -8,6 +8,7 @@
 // @exclude     	  	https://*.oasistrek.com/*
 // @exclude      	  	https://m.facebook.com/*
 // @exclude      	  	https://*.linkedin.com/*
+// @exclude      	  	https://*.github.*/*
 // @grant        	  	none
 // @run-at      	  	document-start
 // @downloadURL	      https://auterrykp.github.io/1/font.master.loader.js?v=
