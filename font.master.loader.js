@@ -15,19 +15,7 @@
 // @updateURL	       	https://auterrykp.github.io/1/font.master.loader.js?v=
 // ==/UserScript==
 
-const allowedDomains = [
-'mingpao.com','am730.com.hk','nippon.com',
-'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com','tokyocheapo.com','harpersbazaar.com','vogue.com.tw',
-'jobsdb.com', 'indeed.com','ctgoodjobs.hk','sc.com',
-'bbc.com','nytimes.com','wikipedia.org','cips.org',
-'500px.com','flickr.com','sony.com','apple.com'
 
-];
-
-
-  if (allowedDomains.some(domain => window.location.hostname.endsWith(domain))) {
-    document.documentElement.classList.add('--serif-font');
-  }
 
 (function () {
   const style = document.createElement('style');
